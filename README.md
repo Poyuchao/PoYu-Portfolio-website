@@ -1,12 +1,12 @@
 <h1>
-  <a href="https://serdargokhan.dev" target="_blank">serdargokhan.dev</a>
+  <a href="" target="_blank">PoYuChao.dev</a>
 </h1>
 
 <p>
 ✨ My portfolio website built with <a href="https://nextjs.org" target="_blank">NextJS</a>, <a href="https://tailwindcss.com" target="_blank">TailwindCSS</a>, and shipped with <a href="https://vercel.com" target="_blank">Vercel</a>.
 </p>
 
-![Image 1](./src/app/opengraph-image.jpg)
+![Image 1]()
 
 ## 🛠 Installation & Set Up
 
