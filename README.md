@@ -15,7 +15,7 @@ This application requires Node.js v18+.
 1. Clone the repository
 
     ```sh
-    git clone https://github.com/serdargokhan/serdargokhan.dev.git
+    git clone https://github.com/Poyuchao/PoYu-Portfolio-website.git
     ```
 
 2. Navigate into the directory
