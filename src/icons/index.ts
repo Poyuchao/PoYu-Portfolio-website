@@ -6,3 +6,5 @@ export { default as ExternalLinkIcon } from "./ExternalLink";
 export { default as LinkedinIcon } from "./Linkedin";
 export { default as InstagramIcon } from "./Instagram";
 export { default as CrossIcon } from "./Cross";
+export { default as VideoIcon } from "./VideoIcon";
+export { default as TestIcon } from "./Test";

@@ -1,18 +1,15 @@
-import type { HTMLProps } from "react";
+import type { HTMLProps, ReactNode } from "react";
 import type { LinkProps } from "next/link";
 import Link from "next/link";
 
-type NextLinkProps = LinkProps & Omit<HTMLProps<HTMLAnchorElement>, "ref">;
+type NextLinkProps = LinkProps & Omit<HTMLProps<HTMLAnchorElement>, "ref"> & {
+    children: ReactNode;
+};
 
 export default function NextLink({ href, children, ...rest }: NextLinkProps) {
-    if (href.startsWith("https")) {
-        rest.target = "_blank";
-        rest.rel = "noopener noreferrer";
-    }
-
     return (
-        <Link href={href} {...rest}>
-            {children}
+        <Link href={href} {...rest} legacyBehavior>
+            <a {...rest}>{children}</a>
         </Link>
     );
 }

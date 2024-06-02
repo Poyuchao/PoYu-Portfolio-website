@@ -4,39 +4,34 @@
             "greeting": "Hey there, my name is",
             "name": "Po Yu Chao",
             "title": "A passionate Software Developer",
-            "freelancer": "Freelancer",
-            "softwareDeveloper": "Seeking for the full-stack position opportunity",
+            "locate": "Located at Vancouver, BC",
+            "softwareDeveloper": "Seeking for full-stack developers || frontend developers || quality assurance engineers",
             "paragraph-one": "I'm a passionate freelance software developer. If my skills align with what you're seeking, please don't hesitate to connect with me.",
             "paragraph-two": "I'm always open to new projects and opportunities, and I'd love to hear from you. Let's create something amazing together!"
         },
         "AboutSection": {
             "title": "About Me",
-            "paragraph-one": "Hello! My name is Po Yu Chao from Kaohsiung, Taiwan. I am currently looking for a full-stack developer position in Vancouver. I completed an internship with the German company Phase last summer (2023). During my time at Phase, I worked as a Software Engineer and a Quality Assurance intern. I addressed UI-related issues and bugs in React software applications, collaborated with cross-functional teams, and managed bug tickets using JIRA. I utilized technologies like Tailwind CSS, Git, React.js, Next.js, and JavaScript. Additionally, I facilitated defect identification, wrote unit tests with Jest, and participated in agile project management.",
-            "paragraph-two": "I began by mastering the basics of HTML, CSS, and JavaScript. Although it was challenging, I took the time to build a solid foundation, which has made it easier for me to learn advanced frameworks and libraries like ReactJS, NextJS, TailwindCSS, and TypeScript.",
-            "paragraph-three": "Throughout my journey, I have developed numerous projects, continuously honing my skills to become an even better developer. I am excited to see where this path takes me, as there is always something new to explore in the ever-evolving world of web development."
-          
-        },
+            "paragraph-one": "Hello! My name is Po Yu Chao, and I am from Taichung, Taiwan. I am currently seeking a ##full-stack developer## position in Vancouver. My recent role at a Stealth AI Startup (Wander Social), where I worked remotely from ##Vancouver##, British Columbia, Canada. During this internship, I participated in ##agile## meetings, implemented Reinforcement Learning from Human Feedback (RLHF) to optimize machine learning models, built internal tools to verify AI model responses, and improved the internal tool's UI for better user experience and accessibility.",
+            "paragraph-two": "In addition, I worked as a part-time contract Software Engineer with Phase Software from September to December 2023. In this role, I addressed UI-related issues and bugs in React applications, collaborated with cross-functional teams, and managed bug tickets using ##JIRA##. I utilized technologies such as ##Reactjs##, ##Next.js##, ##TailwindCSS##, and ##JavaScript## to enhance user interface functionality and experience.",
+            "paragraph-three": "I began my journey by mastering the basics of ##HTML##, ##CSS##, and ##JavaScript##. While it was challenging, building a solid foundation has made it easier for me to learn advanced frameworks and libraries like ##React##, ##Next.js##, ##TailwindCSS##, and ##TypeScript##. Throughout my journey, I have developed numerous projects, continuously honing my skills to become a better developer. I am excited to see where this path takes me, as there is always something new to explore in the ever-evolving world of web development."
+        }
+        ,
         "PortfolioSection": {
             "title": "Projects I've Worked On",
             "actions": {
-                "demo-display": "demo-display",
-                "source-code": "Source Code"
+                "demo-display": "Demo-Display",
+                "source-code": "Source Code",
+                "view-website": "View-Website"
             },
             "projects": {
                 "nextjs": {
-                    "microsoft-todo-clone": {
-                        "description": "This is the biggest project that I have in my portfolio. It took me so long even to get the project so far. I could not finish it due to work but I have done a lot. I owe a lot of new knowledge to this project. In this project I have used TypeScript, SCSS, Firebase Authentication, and MongoDB. I learnt MongoDB from scratch with this project."
-                    },
-                    "add-your-website": {
-                        "description": "I have developed this project as a part of a tutorial from Youtube thanks to Lee Robinson for inspiration. I have used Chakra UI, useSWR, and Skeleton loading for the first time with this project. I also stored the user information on Firebase Firestore and login was implemented with Firebase authentication. It has Github login authentication."
-                    },
-                    "shopify-clone": {
-                        "description": "I have completed this project and I got inspired from Shopify website. It is kind of e-commerce website. There are sign in and sign up proccess. User can create a product, delete a product if they created it, and also add to cart. I used minimal workflow with this project and no extra framework."
+                    "Wander-Internal-Tool": {
+                        "description": "This full-stack project utilizes ##Next.js##, ##React##, and ##TypeScript## for the frontend and interacts with ##AwsS3## for data storage. It implements ##RESTful-APIs## to retrieve CSV data from S3, store user responses, and allow users to download their results from S3. The core functionality includes testing user preferences for responses from different AI models (ChatGPT, ChatGPT-4, Gemini) to ensure alignment with human feedback. The goal is to optimize machine learning models for better self-learning efficiency based on user feedback."
                     }
                 },
                 "reactjs": {
                     "book-my-homestay": {
-                        "description": "Developed a full-stack application to assist Vancouver students in finding ideal homestays, using React for the frontend and ##PHP## with MySQL for the backend. Implemented REST API CRUD operations to ensure efficient data management. Collaborated in a team of three within an Agile framework, contributing to frontend design, backend development, and daily stand-ups to ensure smooth project progress."
+                        "description": "Developed a full-stack application to assist Vancouver students in finding ideal homestays, using ##JavaScript##, ##React## for the frontend and ##PHP## with ##MySQL## for the backend. Implemented ##RESTful-APIs## ##CRUD## operations to ensure efficient data management. Collaborated in a team of three within an Agile team, contributing to frontend design, backend development, and daily stand-ups to ensure smooth project progress."
                     },
                     "crypto-marketcap": {
                         "description": "I have completed this cryptocurrency marketcap website. It has landing page, and a header to show some crypto statistics. It also has coins tab and user can see Top 100 coins with images and some other values. I have used Cryptomarketcap API for this project. Finally, there were some errors about CORS policy and I used netlify-cli tool for that as well."
@@ -63,11 +58,11 @@
                     }
                 },
                 "javascript": {
-                    "budget-tracker": {
-                        "description": "This is a budget tracker website. It provides some functions for user to track their budget with one screen."
+                    "Yoga-Website": {
+                        "description": "The yoga website showcases fundamental web development skills, using ##HTML## for structure, ##CSS## for styling, and ##JavaScript## for interactivity. Designed to perform seamlessly on desktops, tablets, and smartphones, the site provides comprehensive information about yoga classes and highlights the benefits of yoga for the body and mind. By utilizing responsive design techniques, it ensures wide compatibility and an enhanced user experience."
                     },
-                    "movie-list": {
-                        "description": "This is a movie list website. It shows latest trending movies on the screen. I have used themoviedb API to get the data of movies."
+                    "Pet-eCommerce": {
+                        "description": "This pet eCommerce website is a practice project to hone fundamental skills in ##html## ##CSS## and ##JavaScript##. In this project, I contributed by designing the shopping cart and implementing the shopping cart logic using JavaScript."
                     },
                     "todo-list": {
                         "description": "This is a to-do list website. As every beginner I made a to-do list to understand everything more in programming. User can add to-do, complete to-do, and delete to-do like so."

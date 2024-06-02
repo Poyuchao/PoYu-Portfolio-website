@@ -9,7 +9,7 @@ export default function GreetingSection() {
     const t = useTranslations("Home.GreetingSection");
     const titles = [
         t("title"),
-        t("freelancer"),
+        t("locate"),
         t("softwareDeveloper")
     ];
 

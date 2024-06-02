@@ -21,7 +21,7 @@ This application requires Node.js v18+.
 2. Navigate into the directory
 
     ```sh
-    cd serdargokhan.dev
+    cd poyuChao.dev
     ```
 
 3. Install dependencies

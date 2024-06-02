@@ -4,11 +4,11 @@ import { useRouter, usePathname } from "next/navigation";
 import { Label, Switch } from "@src/components/ui";
 import { NextLink } from "@src/components/common";
 import { GithubIcon, LinkedinIcon,InstagramIcon} from "@src/icons";
-
+import { useTranslations } from "next-intl";
 export default function Footer() {
     const router = useRouter();
     const pathname = usePathname();
-
+    const t = useTranslations("Navigation");
     return (
         <footer className="h-footer flex cursor-default items-center bg-primary-300 text-white">
             <div className="container flex items-center justify-between text-sm">
@@ -35,19 +35,22 @@ export default function Footer() {
                 <p className="hidden sm:inline-block">
                     Made with ❤️ © {new Date().getFullYear()}
                 </p>
-                <div className="flex items-center space-x-2 font-semibold">
-                    <Label htmlFor="lang">Chinese</Label>
-                    <Switch
-                        id="lang"
-                        aria-label="Locale Switcher"
-                        className="border-white bg-primary-100 [&>span]:bg-primary-300"
-                        defaultChecked={pathname !== "/tr"}
-                        onCheckedChange={checkedValue => {
-                            router.push(checkedValue ? "/" : "/tr");
-                        }}
-                    />
-                    <Label htmlFor="lang">English</Label>
+
+                <div className="group inline-block">
+                    <NextLink
+                        className="inline-block rounded-md border border-primary-300 bg-white px-4 py-1.5 font-medium transition duration-200 group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:shadow-[-4px_4px_0px_0px_#ffd300] text-black"
+                        href={
+                            pathname === "/tr"
+                                ? "/static/Po-Resume-2024-latest-version.pdf"
+                                : "/static/Po-Resume-2024-latest-version.pdf"
+                        }
+                        target="_blank"
+                        prefetch={false}
+                    >
+                        {t("resume")}
+                    </NextLink>
                 </div>
+               
             </div>
         </footer>
     );

@@ -1,17 +1,17 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { usePathname } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { cn } from "@src/utils";
 import { NextImage, NextLink } from "@src/components/common";
 import SiteLogo from "@public/images/common/site-logo.svg";
-
+import { Label, Switch } from "@src/components/ui";
 const navigationLinks = ["about", "projects", "contact"] as const;
 
 export default function Navbar() {
     const [activeLink, setActiveLink] = useState("");
-
+    const router = useRouter();
     const pathname = usePathname();
 
     const t = useTranslations("Navigation");
@@ -63,20 +63,22 @@ export default function Navbar() {
                     ))}
                 </ul>
 
-                <div className="group inline-block">
-                    <NextLink
-                        className="inline-block rounded-md border border-primary-300 bg-white px-4 py-1.5 font-medium transition duration-200 group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:shadow-[-4px_4px_0px_0px_#ffd300]"
-                        href={
-                            pathname === "/tr"
-                                ? "/static/Po-Resume-2024-latest-version.pdf"
-                                : "/static/Po-Resume-2024-latest-version.pdf"
-                        }
-                        target="_blank"
-                        prefetch={false}
-                    >
-                        {t("resume")}
-                    </NextLink>
+                <div className="flex items-center space-x-2 font-semibold text-white">
+                    <Label htmlFor="lang" className="text-white">中</Label>
+                    <Switch
+                        id="lang"
+                        aria-label="Locale Switcher"
+                        className="border-white bg-primary-100 [&>span]:bg-primary-300"
+                        defaultChecked={pathname !== "/tr"}
+                        onCheckedChange={checkedValue => {
+                            router.push(checkedValue ? "/" : "/tr");
+                        }}
+                    />
+                    <Label htmlFor="lang" className="text-white">EN</Label>
                 </div>
+
+
+            
             </div>
         </nav>
     );

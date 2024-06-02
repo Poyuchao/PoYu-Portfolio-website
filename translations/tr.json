@@ -4,38 +4,34 @@
             "greeting": "嗨，我的名字是",
             "name": "趙博宇",
             "title": "一個充滿熱情的軟體開發者",
-            "freelancer": "自由職業者",
-            "softwareDeveloper": "尋求全端開發的工作機會",
+            "locate": "位於 BC 省溫哥華",
+            "softwareDeveloper": "尋求全端開發人員||前端開發人員||品質保證工程師 的工作機會",
             "paragraph-one": "我是一個充滿熱情的自由軟體開發者。如果我的技能符合您的需求，請隨時與我聯繫。",
             "paragraph-two": "我一直對新項目和機會持開放態度，非常期待您的來信。讓我們一起創造一些很棒的東西吧！"
         },       
         "AboutSection": {
             "title": "關於我",
-            "paragraph-one": "你好！我是來自台灣高雄的趙博宇。我目前正在尋找溫哥華的全端開發職位。我去年夏天（2023年）在德國公司Phase完成了實習。在Phase實習期間，我擔任軟體工程師和品質保證實習生。我負責解決React軟體應用中的UI相關問題和錯誤，與跨功能團隊密切合作，並通過JIRA管理錯誤報告。我使用的技術包括Tailwind CSS、Git、React.js、Next.js和JavaScript。此外，我還參與了缺陷識別，使用Jest編寫單元測試，並參與敏捷專案管理。",
-            "paragraph-two": "我一開始學習了HTML、CSS和JavaScript的基礎知識。儘管過程充滿挑戰，但我花時間建立了堅實的基礎，這使我能夠更容易地學習如ReactJS、NextJS、TailwindCSS和TypeScript等進階框架和庫。",
-            "paragraph-three": "在這個過程中，我開發了許多專案，不斷磨練自己的技能，成為一個更好的開發者。我很期待這段旅程會帶我走向何方，因為在不斷變化的網頁開發世界裡，總有新東西等著我去探索。"
+            "paragraph-one": "你好！我的名字是 Po Yu Chao，我來自台灣台中。目前我正在尋找在溫哥華的##全端開發人員##職位。我最近的工作於一間 AI 初創公司（Wander Social）遠程工作，地點位於##加拿大不列顛哥倫比亞省溫哥華##。在這段實習期間，我參與了##敏捷開發##會議，實施了人類反饋強化學習（RLHF）以優化機器學習模型，構建了內部工具來驗證 AI 模型的回應，並改進了內部工具的用戶界面以提升用戶體驗和可訪問性。",
+            "paragraph-two": "此外，從 2023 年 9 月到 12 月，我在 Phase Software 擔任兼職合約軟體工程師。在這個角色中，我解決了 React 應用程序中的 UI 相關問題和錯誤，與跨功能團隊合作，並使用##JIRA##管理錯誤票。我使用了##Reactjs##、##Next.js##、##TailwindCSS##和##JavaScript##等技術來增強用戶界面的功能和體驗。",
+            "paragraph-three": "我的學習旅程始於掌握##HTML##、##CSS##和##JavaScript##的基礎。雖然這過程充滿挑戰，但打下堅實的基礎讓我更容易學習像##React##、##Next.js##、##TailwindCSS##和##TypeScript##這樣的高級框架和庫。在我的旅程中，我開發了許多專案，不斷提升自己的技能，成為更好的開發者。我對未來充滿期待，因為在不斷發展的網頁開發領域，總有新的東西可以探索。"
         },
         "PortfolioSection": {
             "title": "關於我的專案",
             "actions": {
                 "demo-display": "示範展示",
-                "source-code": "原始碼"
+                "source-code": "原始碼",
+                "view-website": "造訪網頁"
             },
             "projects": {
                 "nextjs": {
-                    "microsoft-todo-clone": {
-                        "description": "Bu benim portföyümdeki en büyük proje. Projeyi bu aşamaya kadar getirmem bile çok uzun sürdü. İş nedeniyle tamamen bitiremedim fakat bir çok şey yaptım. Bu projede TypeScript, SCSS, Firebase Authentication ve MongoDB kullandım. Bu proje ile MongoDB'yi sıfırdan öğrendim."
-                    },
-                    "add-your-website": {
-                        "description": "Bu projeyi Youtube'daki bir eğitimin parçası olarak geliştirdim, ilham için Lee Robinson'a teşekkür ederim. Chakra UI, useSWR ve Skeleton yüklemesini ilk defa bu proje ile kullandım. Ayrıca kullanıcı bilgilerini Firebase Firestore üzerinde depoladım ve Firebase authentication ile login gerçekleştirdim."
-                    },
-                    "shopify-clone": {
-                        "description": "Bu projeyi Shopify web sitesinden ilham alarak yaptım. Bir çeşit e-ticaret sitesidir. Oturum açma ve kaydolma süreci vardır. Kullanıcılar bir ürün oluşturabilir, oluşturduysa ürünü silebilir ve ayrıca sepete ekleyebilir."
+                    "Wander-Internal-Tool": {
+                        "description": "這個全端專案利用 ##Next.js##、##React## 和 ##TypeScript## 作為前端技術，並與 ##AwsS3## 進行數據存儲交互。專案實現了 ##RESTful-APIs##，用於從 S3 檢索 CSV 數據、存儲用戶回應，以及允許用戶從 S3 下載他們的結果。核心功能包括測試用戶對不同 AI 模型（ChatGPT、ChatGPT-4、Gemini）的回應偏好，以確保這些模型與人類反饋的一致性。目標是根據用戶反饋優化機器學習模型，以提高其自我學習效率。"
                     }
+                   
                 },
                 "reactjs": {
-                    "BookMyHomeStay": {
-                        "description": "Oturum açma ve kaydolma özelliklerine sahiptir. Kullanıcılar kaydolabilir, oturum açabilir ve bir blog yazısı oluşturabilir. Oturum açma ve kaydolma kimlik bilgileri Firebase gerçek zamanlı veritabanında saklanır. Blog yazısı oluşturulduktan sonra ana sayfada gösteriliyor. Bu proje ile framer-motion kütüphanesini de deneyimledim."
+                    "book-my-homestay": {
+                        "description": "開發了一個全端應用程序，幫助溫哥華學生尋找理想的寄宿家庭，前端使用##JavaScript##、##React##，後端使用##PHP##和##MySQL##。實作##REST-API##, ##CRUD##以確保高效率的資料管理。在敏捷團隊的三人團隊中進行協作，為前端設計、後端開發和日常站會做出貢獻，以確保專案順利進行。"
                     },
                     "crypto-marketcap": {
                         "description": "Kripto para piyasa değeri web sitesini tamamladım. Bir açılış sayfası ve bazı kripto istatistiklerini göstermek için yapılmıştır. Ayrıca bir kripto para sekmesi vardır ve kullanıcılar ilk 100 kripto parayı resimlerle ve diğer bazı değerlerle görebilir. Bu proje için Cryptomarketcap API kullandım. Son olarak, CORS politikasında bazı hatalar vardı ve bunun için de netlify-cli aracını kullandım."
@@ -62,11 +58,11 @@
                     }
                 },
                 "javascript": {
-                    "budget-tracker": {
-                        "description": "Bu bir bütçe takip web sitesidir. Kullanıcının bütçesini tek bir ekranla takip etmesi için bazı işlevler sağlar."
+                    "Yoga-Website": {
+                        "description": "這個瑜伽網站展示了基本的網頁開發技能，使用##HTML##來構建結構，使用##CSS##來進行樣式設計，並使用##JavaScript##來增加互動性。該網站被設計為能在桌面電腦、平板電腦和智能手機上無縫運行，提供了有關瑜伽課程的全面信息，並突出了瑜伽對身體和心靈的益處。通過使用響應式設計技術，確保了廣泛的兼容性和增強的用戶體驗。"
                     },
-                    "movie-list": {
-                        "description": "Bu bir film listesi web sitesidir. Ekranda en son trend filmleri gösterir. Filmlerin verilerini almak için themoviedb API kullandım."
+                    "Pet-eCommerce": {
+                        "description": "這個寵物電子商務網站是一個用於練習基礎##html##  ##CSS## 和 ##JavaScript## 技能的專案。在這個專案中，我負責設計購物車並使用 JavaScript 實現購物車邏輯。"
                     },
                     "todo-list": {
                         "description": "Bu bir yapılacaklar listesi web sitesidir. Her yeni başlayan gibi, programlamada her şeyi daha iyi anlamak için bir yapılacaklar listesi yaptım. Kullanıcı yapılacaklar ekleyebilir, yapılacakları tamamlayabilir ve yapılacakları silebilir."
@@ -74,7 +70,8 @@
                     "search-weather-location": {
                         "description": "Bu, belirli bir konumun hava durumunu gösteren bir hava durumu web sitesidir. Verileri almak ve kullanıcıya göstermek için OpenWeatherMap API kullandım. Ayrıca bir konum için arama işlevine de sahiptir."
                     }
-                }
+                },
+                "automation-test":{}
             }
         },
         "ContactSection": {

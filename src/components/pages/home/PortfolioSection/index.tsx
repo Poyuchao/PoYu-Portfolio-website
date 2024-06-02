@@ -43,6 +43,7 @@ export default function PortfolioSection() {
                             key={projectItem.sourceLink}
                             title={projectItem.title}
                             websiteLink={projectItem.websiteLink}
+                            videoLink={projectItem.videoLink}
                             sourceLink={projectItem.sourceLink}
                             description={t(
                                 `projects.${category}.${projectItem.id}.description` as any
