@@ -6,7 +6,7 @@ type Config = {
 };
 
 const siteConfig: Config = {
-    locales: ["en", "tr"],
+    locales: ["en", "cn"],
     defaultLocale: "en"
 };
 

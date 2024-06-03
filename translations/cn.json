@@ -31,30 +31,10 @@
                 },
                 "reactjs": {
                     "book-my-homestay": {
-                        "description": "開發了一個全端應用程序，幫助溫哥華學生尋找理想的寄宿家庭，前端使用##JavaScript##、##React##，後端使用##PHP##和##MySQL##。實作##REST-API##, ##CRUD##以確保高效率的資料管理。在敏捷團隊的三人團隊中進行協作，為前端設計、後端開發和日常站會做出貢獻，以確保專案順利進行。"
+                        "description": "BookMyHomestay 是一個全端應用程式，旨在幫助溫哥華的學生找到理想的寄宿家庭。前端使用 ##React## 架構，後端由 ##PHP## 和 ##MySQL## 支持。我們實現了 ##RESTful-APIs## 的 ##CRUD## 操作，以便用戶註冊、登錄以及房主在我們的網站上註冊其寄宿家庭。在一個三人組成的 ##敏捷開發## 團隊中，我專注於前端 UI 設計，創建註冊表單，並處理前端和後端之間的 ##RESTful-APIs## 請求"
                     },
                     "crypto-marketcap": {
                         "description": "Kripto para piyasa değeri web sitesini tamamladım. Bir açılış sayfası ve bazı kripto istatistiklerini göstermek için yapılmıştır. Ayrıca bir kripto para sekmesi vardır ve kullanıcılar ilk 100 kripto parayı resimlerle ve diğer bazı değerlerle görebilir. Bu proje için Cryptomarketcap API kullandım. Son olarak, CORS politikasında bazı hatalar vardı ve bunun için de netlify-cli aracını kullandım."
-                    },
-                    "auth-firebase": {
-                        "description": "Bu benim TailwindCSS kullandığım ilk projemdi. Kayıt ve giriş olmak üzere iki ekranı var. react-router kurulumu yok. React'in temellerini öğrendim. Kullanıcı kimlik bilgilerini saklamak için Firebase gerçek zamanlı veritabanını kullandım."
-                    },
-                    "currency-converter": {
-                        "description": "Bu temel bir para birimi dönüştürücü web sitesidir. Para birimleri hakkında veri almak için para birimi API'sini kullandım. Ayrıca para birimi değişimleri hakkında spesifik olmak için react-select kütüphanesini kullandım."
-                    },
-                    "resipe-search": {
-                        "description": "Bu benim ilk React tek sayfalık uygulamam. Bu proje için edamame API'sini kullandım. Bazı tarifleri aramak için bir giriş alanı var. Ayrıca daha iyi bir kullanıcı deneyimi için bu projede yükleme durumu için react-loader-spinner kullandım."
-                    }
-                },
-                "reactNative": {
-                    "register-and-search-news": {
-                        "description": "Bu benim React-Native ile geliştirdiğim haber uygulamam. Kayıt ve giriş ekranları var. Kullanıcı kimliği doğrulandıktan sonra, haber API'sinden en son haberleri göstermek için kullanıcıyı ana sayfaya yönlendirir. Ayrıca kullanıcıların kendileri hakkında bilgileri görebilecekleri bir profil bölümü de var."
-                    },
-                    "restaurant-search": {
-                        "description": "Bu bir restoran arama uygulamasıdır. Restoranlar hakkında veri almak için Yelp API kullandım. Kullanıcıların restoran araması yapabilmesi için ana sayfada bir giriş alanı bulunmaktadır. Arama yaptıktan sonra, tek tek restoranların ayrıntılarına girebilir ve yorumlar, resimler ve restoranın harita üzerindeki konumu gibi birçok ayrıntıyı görebilirler."
-                    },
-                    "auth-screen": {
-                        "description": "Bu, react-native için temel bir UI uygulamasıdır. Oturum açma gibi bir etkileşim olmadan sadece kayıt ve oturum açma ekranlarına sahiptir. Bu proje ile tab navigasyon kullandım ve ayrıca react-native'deki düzen becerilerimi geliştirdim."
                     }
                 },
                 "javascript": {
@@ -63,30 +43,24 @@
                     },
                     "Pet-eCommerce": {
                         "description": "這個寵物電子商務網站是一個用於練習基礎##html##  ##CSS## 和 ##JavaScript## 技能的專案。在這個專案中，我負責設計購物車並使用 JavaScript 實現購物車邏輯。"
-                    },
-                    "todo-list": {
-                        "description": "Bu bir yapılacaklar listesi web sitesidir. Her yeni başlayan gibi, programlamada her şeyi daha iyi anlamak için bir yapılacaklar listesi yaptım. Kullanıcı yapılacaklar ekleyebilir, yapılacakları tamamlayabilir ve yapılacakları silebilir."
-                    },
-                    "search-weather-location": {
-                        "description": "Bu, belirli bir konumun hava durumunu gösteren bir hava durumu web sitesidir. Verileri almak ve kullanıcıya göstermek için OpenWeatherMap API kullandım. Ayrıca bir konum için arama işlevine de sahiptir."
                     }
                 },
                 "automation-test":{}
             }
         },
         "ContactSection": {
-            "title": "İletişime Geçin",
-            "paragraph-one": "Herhangi bir sorunuz varsa veya potansiyel bir proje hakkında bilgi almak istiyorsanız, aşağıda verdiğim iletişim e-postası aracılığıyla bana ulaşmaktan çekinmeyin. İşbirliğine her zaman açığım ve yeni müşterilerle çalışmaktan keyif alıyorum.",
-            "paragraph-two": "Ayrıca, sadece bağlantı kurmak istiyorsanız veya çalışmalarım hakkında herhangi bir sorunuz varsa, bana bir mesaj göndermekten çekinmeyin. Sizden haber almak için sabırsızlanıyorum!",
-            "cta": "Merhaba!"
+            "title": "聯繫我",
+            "paragraph-one": "如果有任何潛在的項目合作機會或工作機會，請隨時與我聯繫",
+            "paragraph-two": "此外，如果您想聯繫我或對我的工作有任何疑問，請隨時給我發消息。我期待很快能與您取得聯繫！",
+            "cta": "讓我們聯繫吧!"
         }
     },
     "Navigation": {
         "about": "關於我",
         "projects": "專案",
         "contact": "聯繫我",
-        "resume": "履歷"
+        "resume": "下載履歷"
     },
-    "default-seo-title": "Portfolyo | Serdar Gökhan",
+    "default-seo-title": "Portfolio | Po Yu Chao",
     "default-seo-description": "Ölçeklenebilir, çapraz tarayıcı uyumlu, performanslı ve duyarlı web siteleri oluşturan bir ön uç geliştiriciyim ve aynı zamanda bir mekatronik mühendisiyim."
 }

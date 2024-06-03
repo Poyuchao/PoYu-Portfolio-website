@@ -6,12 +6,13 @@ import Modal from "@src/components/common/Modal";
 import type { ProjectItem as ProjectItemProps } from "./projectItems";
 import VideoIcon from "@src/icons/VideoIcon";
 
-const keywords = ["HTML","CSS","JavaScript", "React", "PHP", "MySQL", "RESTful-APIs", "CRUD","Next.js","TypeScript","AwsS3","TailwindCSS",];
+const keywords = ["敏捷開發","HTML","CSS","JavaScript", "React", "PHP", "MySQL", "RESTful-APIs", "CRUD","Next.js","TypeScript","AwsS3","TailwindCSS","agile"];
 
 function highlightText(text: string): React.ReactNode {
    
     const regex = new RegExp(`##(${keywords.join('|')})##`, 'gi');
     const parts = text.split(regex);
+
 
     return parts.map((part, index) => {
         if (keywords.some(keyword => keyword.toLowerCase() === part.toLowerCase())) {
@@ -38,6 +39,15 @@ export default function ProjectItem({
 
     const openModal = () => setModalOpen(true);
     const closeModal = () => setModalOpen(false);
+
+    const handleWebsiteLinkClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+        if (!websiteLink ) {
+            e.preventDefault();
+            alert("Sorry, It looks like this link is currently unavailable.");
+        }
+    };
+
+  
 
     return (
         <article className="flex cursor-default flex-col gap-6 bg-white p-6 transition duration-300 hover:-translate-y-4 hover:translate-x-4 hover:shadow-primary-100-lg">
@@ -68,6 +78,7 @@ export default function ProjectItem({
 
                 <NextLink
                     href={websiteLink}
+                    onClick={handleWebsiteLinkClick}
                     className="group flex w-1/2 items-center justify-around rounded-lg border-2 border-primary-300 px-4 py-2 hover:bg-primary-300 hover:text-white md:w-1/3"
                 >
                     <span>{t("view-website")}</span>

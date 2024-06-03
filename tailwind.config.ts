@@ -18,7 +18,8 @@ export default {
                     200: "#3a10e5",
                     300: "#10162f",
                     400: "#fff0e5",
-                    500: "#2F4F4F" // DarkSlateGray
+                    500: "#2F4F4F", // DarkSlateGray
+                    600: "#000000"
                 }
             },
             boxShadow: {

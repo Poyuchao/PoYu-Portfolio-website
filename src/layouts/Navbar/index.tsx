@@ -69,9 +69,9 @@ export default function Navbar() {
                         id="lang"
                         aria-label="Locale Switcher"
                         className="border-white bg-primary-100 [&>span]:bg-primary-300"
-                        defaultChecked={pathname !== "/tr"}
+                        defaultChecked={pathname !== "/cn"}
                         onCheckedChange={checkedValue => {
-                            router.push(checkedValue ? "/" : "/tr");
+                            router.push(checkedValue ? "/" : "/cn");
                         }}
                     />
                     <Label htmlFor="lang" className="text-white">EN</Label>

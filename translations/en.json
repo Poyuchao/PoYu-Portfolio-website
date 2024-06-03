@@ -31,30 +31,10 @@
                 },
                 "reactjs": {
                     "book-my-homestay": {
-                        "description": "Developed a full-stack application to assist Vancouver students in finding ideal homestays, using ##JavaScript##, ##React## for the frontend and ##PHP## with ##MySQL## for the backend. Implemented ##RESTful-APIs## ##CRUD## operations to ensure efficient data management. Collaborated in a team of three within an Agile team, contributing to frontend design, backend development, and daily stand-ups to ensure smooth project progress."
+                        "description": "BookMyHomestay is a full-stack application designed to help Vancouver students find their ideal homestays. The frontend is built with ##React##, while the backend is powered by ##PHP## and ##MySQL##. We implemented ##RESTful-APIs## ##CRUD## operations to facilitate user registration, login, and homeowner registration of their homestays on our website. In a three-person ##agile## development team, I specialized in frontend UI design, creating the registration form, and handling ##RESTful-APIs## requests between the frontend and backend."
                     },
                     "crypto-marketcap": {
                         "description": "I have completed this cryptocurrency marketcap website. It has landing page, and a header to show some crypto statistics. It also has coins tab and user can see Top 100 coins with images and some other values. I have used Cryptomarketcap API for this project. Finally, there were some errors about CORS policy and I used netlify-cli tool for that as well."
-                    },
-                    "auth-firebase": {
-                        "description": "This was my first project using TailwindCSS. It has basically two screens sign up and sign in. There is no react-router setup. I learned basics of React. I used Firebase real-time database to store user credentials."
-                    },
-                    "currency-converter": {
-                        "description": "This is a basic currency converter website. I have used currency API to retrieve data of currencies. I also used react-select library to be specific about currency exchanges."
-                    },
-                    "resipe-search": {
-                        "description": "This is my very first React single page application. I have used edamam API for this project. It basically has an input field for searching some recipes. I also used react-loader-spinner for loading state for this project for better user experience."
-                    }
-                },
-                "reactNative": {
-                    "register-and-search-news": {
-                        "description": "This is my news application developed with React-Native. I have used lots of frameworks with this project. It has sign up and sign in screens. Once user is authenticated it redirects user to home page to show the latest news from news API. I implemented categories, search, and skeleton loading into this project. There is also a profile section which user can see information about itself."
-                    },
-                    "restaurant-search": {
-                        "description": "This is a restaurant search application. I have used Yelp API to get the data about restaurants. There is an input field on the home page for users to search restaurants. Once they search it, they can tap into the details of individual restaurant and see lots of details like reviews, images, and location of the restaurant on the map."
-                    },
-                    "auth-screen": {
-                        "description": "This is a basic UI implementation for react-native. It has just sign up and sign in screens with no interactivity like signing in. I have used bottom tab navigator with this project and also I improved my layout skills in react-native."
                     }
                 },
                 "javascript": {
@@ -63,28 +43,22 @@
                     },
                     "Pet-eCommerce": {
                         "description": "This pet eCommerce website is a practice project to hone fundamental skills in ##html## ##CSS## and ##JavaScript##. In this project, I contributed by designing the shopping cart and implementing the shopping cart logic using JavaScript."
-                    },
-                    "todo-list": {
-                        "description": "This is a to-do list website. As every beginner I made a to-do list to understand everything more in programming. User can add to-do, complete to-do, and delete to-do like so."
-                    },
-                    "search-weather-location": {
-                        "description": "This is a weather website to show weather of a given location. I have used Openweathermap API to get the data and show to the user. It also has the search functionality for a location."
                     }
                 }
             }
         },
         "ContactSection": {
             "title": "Contact Me",
-            "paragraph-one": "If you have any inquiries or would like to discuss a potential project, feel free to reach out to me through the contact email provided below. I'm always open to collaboration and love working with new clients.",
-            "paragraph-two": "Additionally, if you simply want to connect or have any questions about my work, don't hesitate to drop me a message. Looking forward to hearing from you soon!",
-            "cta": "Say Hello!"
+            "paragraph-one": "If there are any potential project collaborations or job opportunities, feel free to contact me.",
+            "paragraph-two": "Additionally, if you'd like to connect or have any questions about my work, don't hesitate to send me a message. I look forward to hearing from you soon!",
+            "cta": "Let's Connect!"
         }
     },
     "Navigation": {
         "about": "About",
         "projects": "Projects",
         "contact": "Contact",
-        "resume": "Resume"
+        "resume": "Download Resume"
     },
     "default-seo-title": "Portfolio | Po Yu Chao",
     "default-seo-description": "I’m a full stack developer building scalable, cross-browser compatible, performant, and responsive websites."

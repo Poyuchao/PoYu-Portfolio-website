@@ -28,9 +28,9 @@ export const projectItems = {
             id: "book-my-homestay",
             title: "BookMyHomestay",
             description:
-            'Developed a full-stack application to assist Vancouver students in finding ideal homestays, using React for the frontend and ##PHP## with MySQL for the backend. Implemented REST API CRUD operations to ensure efficient data management. Collaborated in a team of three within an Agile framework, contributing to frontend design, backend development, and daily stand-ups to ensure smooth project progress.',
-            videoLink: "/video/demo.mp4", 
-            websiteLink: "https://drive.google.com/file/d/12vI5yd2h7BvPcXpG6vww-MFUsX92_G_O/view?usp=drive_link",
+            'BookMyHomestay is a full-stack application designed to help Vancouver students find their ideal homestays. The frontend is built with React, while the backend is powered by PHP and MySQL. We implemented REST API CRUD operations to facilitate user registration, login, and homeowner registration of their homestays on our website. In a three-person agile development team, I specialized in frontend UI design, creating the registration form, and handling RESTful API requests between the frontend and backend.',
+            videoLink: "/video/bookMyHomestay.mp4", 
+            websiteLink: "",
             sourceLink: "https://github.com/Poyuchao/BookMyHomestay",
             techStacks: ["ReactJS", "MySQL", "PHP", "JavaScript","Rest APIs","Postman"]
         },
@@ -69,7 +69,7 @@ export const projectItems = {
             title: "Pet-eCommerce",
             description:
                 "This pet eCommerce website is a practice project to hone fundamental skills in ##html## ##CSS## and ##JavaScript##. In this project, I contributed by designing the shopping cart and implementing the shopping cart logic using JavaScript.",
-            websiteLink: "https://isaacnetoo.github.io/ProjectWebDev3/",
+            websiteLink: "",
             videoLink: "/video/pet-e.mp4", 
             sourceLink:
                 "https://github.com/isaacnetoo/ProjectWebDev3.git",

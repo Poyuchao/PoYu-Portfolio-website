@@ -14,7 +14,7 @@ export default function Footer() {
             <div className="container flex items-center justify-between text-sm">
                 <div className="flex items-center gap-2.5">
                     <NextLink
-                        href="https://github.com/serdargokhan"
+                        href="https://github.com/Poyuchao"
                         title="Github"
                     >
                         <GithubIcon className="h-8 w-8 fill-white transition hover:fill-primary-100" />
@@ -26,8 +26,8 @@ export default function Footer() {
                         <LinkedinIcon className="h-8 w-8 fill-white transition hover:fill-primary-100" />
                     </NextLink>
                     <NextLink
-                        href="https://twitter.com/serdarrgokhann"
-                        title="Twitter"
+                        href="https://www.instagram.com/killyen444/"
+                        title="Instagram"
                     >
                         <InstagramIcon className="h-8 w-8 fill-white transition hover:fill-primary-100" />
                     </NextLink>

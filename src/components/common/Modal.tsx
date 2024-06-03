@@ -41,7 +41,7 @@ export default function Modal({ isOpen, onClose, children }: ModalProps) {
                 className="relative bg-white p-6 rounded-md shadow-lg"
                 onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside the modal
                 ref={modalRef}
-                style={{ width: "80%", maxWidth: "800px", height: "450px" }}
+                style={{ width: "80%", maxWidth: "800px", height: "600px" }}
             >
                 <button
                     className="absolute top-2 right-2 text-black"
