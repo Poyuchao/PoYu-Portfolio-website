@@ -14,9 +14,10 @@ type ContactFormProps = {
     handleSubmit: (formData: FormData) => void;
     submitForm: boolean;
     isSubmitted: boolean; 
+    isError: boolean;
 };
 
-export default function ContactForm( {handleSubmit,submitForm,isSubmitted }: ContactFormProps) {
+export default function ContactForm( {handleSubmit,submitForm,isSubmitted,isError }: ContactFormProps) {
     const [formData, setFormData] = useState({
         name: "",
         email: "",
@@ -93,6 +94,11 @@ export default function ContactForm( {handleSubmit,submitForm,isSubmitted }: Con
             {isSubmitted &&(
                 <div className="mt-4 p-4 text-green-800 bg-green-100 border border-green-400 rounded-md shadow-md text-center">
                     Message has been successfully sent!
+                </div>
+            )}
+            {isError &&(
+                <div className="mt-4 p-4 text-red-800 bg-red-100 border border-red-400 rounded-md shadow-md text-center">
+                    Please fill in all fields, thanks! 
                 </div>
             )}
 

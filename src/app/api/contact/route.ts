@@ -19,6 +19,10 @@ export async function POST(request: NextRequest) {
             },
         });
 
+        if (!name || !email || !message) {
+            return NextResponse.json({ message: 'Please fill in all fields' }, { status: 400 });
+        }
+
         const mailData = {
             from: process.env.EMAIL_USER, 
             to: process.env.EMAIL_USER, 

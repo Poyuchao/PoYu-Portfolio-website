@@ -4,11 +4,13 @@ import { useTranslations } from "next-intl";
 import ContactForm from "@src/components/common/ContactForm";
 import { useState,useEffect } from "react";
 
+
 export default function ContactSection() {
     const t = useTranslations("Home.ContactSection");
 
     const [submitForm, setSubmitForm] = useState(false);
     const [isSubmitted, setIsSubmitted] = useState(false);
+    const [isError, setIsError] = useState(false);
     const handleSubmit = async (formData: { name: string; email: string; message: string }) => {
         console.log('Submitting form data:', formData);
         try {
@@ -25,6 +27,7 @@ export default function ContactSection() {
                 setIsSubmitted(true); 
             } else {
                 console.log('Error sending email');
+                setIsError(true);
             }
         } catch (err) {
             console.log('Error sending email');
@@ -41,6 +44,12 @@ export default function ContactSection() {
         if(isSubmitted){
             setTimeout(()=>{
                 setIsSubmitted(false);
+            },3000);
+        }
+
+        if (isError){
+            setTimeout(()=>{
+                setIsError(false);
             },3000);
         }
     
@@ -68,7 +77,7 @@ export default function ContactSection() {
                         </button>
                     </div>
                 </div>
-                <ContactForm handleSubmit={handleSubmit} submitForm={submitForm} isSubmitted={isSubmitted}/>
+                <ContactForm handleSubmit={handleSubmit} submitForm={submitForm} isSubmitted={isSubmitted} isError={isError}/>
             </div>
         </section>
     );
