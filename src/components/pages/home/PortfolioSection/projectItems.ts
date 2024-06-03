@@ -33,19 +33,7 @@ export const projectItems = {
             websiteLink: "",
             sourceLink: "https://github.com/Poyuchao/BookMyHomestay",
             techStacks: ["ReactJS", "MySQL", "PHP", "JavaScript","Rest APIs","Postman"]
-        },
-        {
-            id: "crypto-marketcap",
-            title: "CryptoCurrency MarketCap",
-            description:
-                "I have completed this cryptocurrency marketcap website. It has landing page, and a header to show some crypto statistics. It also has coins tab and user can see Top 100 coins with images and some other values. I have used Cryptomarketcap API for this project. Finally, there were some errors about CORS policy and I used netlify-cli tool for that as well.",
-            websiteLink: "https://serdargokhan-crypto-marketcap.netlify.app",
-            sourceLink:
-                "https://github.com/serdargokhan/react-projects/tree/main/4-cryptocurrency-marketcap",
-            techStacks: ["ReactJS", "TailwindCSS", "Netlify", "JavaScript"]
-        },
-      
-    
+        }
        
     ],
     AutomationTesting: [
