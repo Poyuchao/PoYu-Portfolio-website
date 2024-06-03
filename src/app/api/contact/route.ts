@@ -11,8 +11,6 @@ export async function POST(request: NextRequest) {
     try {
         const { name, email, message }: FormData = await request.json();
 
-        console.log(email);
-
         const transporter = nodemailer.createTransport({
             service: 'gmail',
             auth: {
@@ -24,7 +22,7 @@ export async function POST(request: NextRequest) {
         const mailData = {
             from: process.env.EMAIL_USER, 
             to: process.env.EMAIL_USER, 
-            subject: `Contact Message from ${name}`,
+            subject: `Message from ${email} -Client Name: ${name}`,
             text: message,
             replyTo: email 
         };
