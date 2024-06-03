@@ -27,6 +27,15 @@ export default {
             },
             backgroundImage: {
                 noise: "url(/images/common/noise.png)"
+            },
+            animation: {
+                pulse: 'pulse 2s infinite',
+            },
+            keyframes: {
+                pulse: {
+                    '0%, 100%': { transform: 'scale(1)', opacity: '1' }, // Values as strings
+                    '50%': { transform: 'scale(1.1)', opacity: '0.8' },  // Values as strings
+                },
             }
         }
     },

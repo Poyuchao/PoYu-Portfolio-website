@@ -69,7 +69,7 @@ export default function ContactSection() {
                     <p>{t("paragraph-two")}</p>
                     <div className="group inline-block w-fit">
                         <button
-                            className="inline-block rounded-md border border-primary-300 bg-white px-4 py-2.5 font-semibold transition duration-200 group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:shadow-[-4px_4px_0px_0px_#3a10e5]"
+                            className="inline-block rounded-md border border-primary-300 bg-white px-4 py-2.5 font-semibold transition duration-200 group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:shadow-[-4px_4px_0px_0px_#3a10e5] animate-pulse"
                             onClick={triggerFormSubmit}
                         >
                             {/* let's connect */}
