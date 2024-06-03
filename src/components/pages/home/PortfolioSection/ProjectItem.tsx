@@ -66,20 +66,19 @@ export default function ProjectItem({
                 ))}
             </ul>
 
-            <div className="mt-auto flex justify-end gap-4">
-               
+            <div className="mt-auto flex flex-wrap gap-4">
                 <button
                     onClick={openModal}
-                    className="group flex w-1/2 items-center justify-around rounded-lg border-2 border-primary-300 px-4 py-2 hover:bg-primary-300 hover:text-white md:w-1/3"
+                    className="group flex flex-grow items-center justify-center rounded-lg border-2 border-primary-300 px-4 py-2 hover:bg-primary-300 hover:text-white"
                 >
                     <span>{t("demo-display")}</span>
                     <VideoIcon className="h-8 w-8 fill-primary-300 transition group-hover:fill-white" />
                 </button>
 
                 <NextLink
-                    href={websiteLink?? "#"}
+                    href={websiteLink ?? "#"}
                     onClick={handleWebsiteLinkClick}
-                    className="group flex w-1/2 items-center justify-around rounded-lg border-2 border-primary-300 px-4 py-2 hover:bg-primary-300 hover:text-white md:w-1/3"
+                    className="group flex flex-grow items-center justify-center rounded-lg border-2 border-primary-300 px-4 py-2 hover:bg-primary-300 hover:text-white"
                 >
                     <span>{t("view-website")}</span>
                     <ExternalLinkIcon className="h-8 w-8 fill-primary-300 transition group-hover:fill-white" />
@@ -87,7 +86,7 @@ export default function ProjectItem({
 
                 <NextLink
                     href={sourceLink}
-                    className="group flex w-1/2 items-center justify-around rounded-lg border-2 border-primary-300 px-4 py-2 hover:bg-primary-300 hover:text-white md:w-1/3"
+                    className="group flex flex-grow items-center justify-center rounded-lg border-2 border-primary-300 px-4 py-2 hover:bg-primary-300 hover:text-white"
                 >
                     <span>{t("source-code")}</span>
                     <GithubIcon className="h-8 w-8 fill-primary-300 transition group-hover:fill-white" />
