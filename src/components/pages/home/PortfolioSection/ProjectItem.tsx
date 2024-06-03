@@ -77,7 +77,7 @@ export default function ProjectItem({
                 </button>
 
                 <NextLink
-                    href={websiteLink}
+                    href={websiteLink?? "#"}
                     onClick={handleWebsiteLinkClick}
                     className="group flex w-1/2 items-center justify-around rounded-lg border-2 border-primary-300 px-4 py-2 hover:bg-primary-300 hover:text-white md:w-1/3"
                 >

@@ -45,11 +45,26 @@ export default async function RootLayout({
     );
 }
 
-const BASE_URL = "https://serdargokhan.dev";
+const BASE_URL = "https://poyuChao.dev";
+
+// Extend the Languages type to include 'cn'
+type CustomLanguages = {
+    "x-default": string;
+    en: string;
+    cn: string; // Add 'cn' property here
+  };
+  
+  // Extend the Metadata type to include your custom languages type
+interface CustomMetadata extends Metadata {
+alternates: {
+    languages: CustomLanguages;
+    canonical: string;
+};
+}
 
 export async function generateMetadata({
     params: { locale }
-}: Pick<RootLayoutProps, "params">): Promise<Metadata> {
+}: Pick<RootLayoutProps, "params">): Promise<CustomMetadata> {
     const messages = await loadTranslations(locale);
 
     const t = createTranslator({ locale, messages });
