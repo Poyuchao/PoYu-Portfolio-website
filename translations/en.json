@@ -42,7 +42,7 @@
                         "description": "The yoga website showcases fundamental web development skills, using ##HTML## for structure, ##CSS## for styling, and ##JavaScript## for interactivity. Designed to perform seamlessly on desktops, tablets, and smartphones, the site provides comprehensive information about yoga classes and highlights the benefits of yoga for the body and mind. By utilizing responsive design techniques, it ensures wide compatibility and an enhanced user experience."
                     },
                     "Pet-eCommerce": {
-                        "description": "This pet eCommerce website is a practice project to hone fundamental skills in ##html## ##CSS## and ##JavaScript##. In this project, I contributed by designing the shopping cart and implementing the shopping cart logic using JavaScript."
+                        "description": "This pet eCommerce website is a practice project to hone fundamental skills in ##HTML## ##CSS## and ##JavaScript##. In this project, I contributed by designing the shopping cart and implementing the shopping cart logic using JavaScript."
                     }
                 }
             }

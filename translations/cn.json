@@ -32,9 +32,6 @@
                 "reactjs": {
                     "book-my-homestay": {
                         "description": "BookMyHomestay 是一個全端應用程式，旨在幫助溫哥華的學生找到理想的寄宿家庭。前端使用 ##React## 架構，後端由 ##PHP## 和 ##MySQL## 支持。我們實現了 ##RESTful-APIs## 的 ##CRUD## 操作，以便用戶註冊、登錄以及房主在我們的網站上註冊其寄宿家庭。在一個三人組成的 ##敏捷開發## 團隊中，我專注於前端 UI 設計，創建註冊表單，並處理前端和後端之間的 ##RESTful-APIs## 請求"
-                    },
-                    "crypto-marketcap": {
-                        "description": "Kripto para piyasa değeri web sitesini tamamladım. Bir açılış sayfası ve bazı kripto istatistiklerini göstermek için yapılmıştır. Ayrıca bir kripto para sekmesi vardır ve kullanıcılar ilk 100 kripto parayı resimlerle ve diğer bazı değerlerle görebilir. Bu proje için Cryptomarketcap API kullandım. Son olarak, CORS politikasında bazı hatalar vardı ve bunun için de netlify-cli aracını kullandım."
                     }
                 },
                 "javascript": {
