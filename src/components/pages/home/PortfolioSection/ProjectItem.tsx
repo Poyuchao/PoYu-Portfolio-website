@@ -66,19 +66,11 @@ export default function ProjectItem({
                 ))}
             </ul>
 
-            <div className="mt-auto flex flex-wrap gap-4">
-                <button
-                    onClick={openModal}
-                    className="group flex flex-grow items-center justify-center rounded-lg border-2 border-primary-300 px-4 py-2 hover:bg-primary-300 hover:text-white"
-                >
-                    <span>{t("demo-display")}</span>
-                    <VideoIcon className="h-8 w-8 fill-primary-300 transition group-hover:fill-white" />
-                </button>
-
+            <div className="mt-auto grid grid-cols-2 gap-4">
                 <NextLink
                     href={websiteLink ?? "#"}
                     onClick={handleWebsiteLinkClick}
-                    className="group flex flex-grow items-center justify-center rounded-lg border-2 border-primary-300 px-4 py-2 hover:bg-primary-300 hover:text-white"
+                    className="group flex items-center justify-center rounded-lg border-2 border-primary-300 px-4 py-2 hover:bg-primary-300 hover:text-white"
                 >
                     <span>{t("view-website")}</span>
                     <ExternalLinkIcon className="h-8 w-8 fill-primary-300 transition group-hover:fill-white" />
@@ -86,11 +78,19 @@ export default function ProjectItem({
 
                 <NextLink
                     href={sourceLink}
-                    className="group flex flex-grow items-center justify-center rounded-lg border-2 border-primary-300 px-4 py-2 hover:bg-primary-300 hover:text-white"
+                    className="group flex items-center justify-center rounded-lg border-2 border-primary-300 px-4 py-2 hover:bg-primary-300 hover:text-white"
                 >
                     <span>{t("source-code")}</span>
                     <GithubIcon className="h-8 w-8 fill-primary-300 transition group-hover:fill-white" />
                 </NextLink>
+
+                <button
+                    onClick={openModal}
+                    className="group col-span-2 flex items-center justify-center rounded-lg border-2 border-primary-300 px-4 py-2 hover:bg-primary-300 hover:text-white"
+                >
+                    <span>{t("demo-display")}</span>
+                    <VideoIcon className="h-8 w-8 fill-primary-300 transition group-hover:fill-white" />
+                </button>
             </div>
 
             {videoLink && (
