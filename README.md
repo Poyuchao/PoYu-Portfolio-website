@@ -6,7 +6,6 @@
 ✨ My portfolio website built with <a href="https://nextjs.org" target="_blank">NextJS</a>, <a href="https://tailwindcss.com" target="_blank">TailwindCSS</a>, and shipped with <a href="https://vercel.com" target="_blank">Vercel</a>.
 </p>
 
-![Image 1]()
 
 ## 🛠 Installation & Set Up
 
