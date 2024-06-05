@@ -6,6 +6,11 @@ import { cn } from "@src/utils";
 import { Category, projectItems } from "./projectItems";
 import { categoryButtons } from "./categoryButtons";
 import ProjectItem from "./ProjectItem";
+import { ScrollTriggerTextEffect } from "../../../ui/ScrollTriggerTextEffect";
+import {SparklesCore} from "../../../ui/sparkles";
+
+
+
 
 export default function PortfolioSection() {
     const [category, setCategory] = useState<Category>("nextjs");
@@ -13,12 +18,17 @@ export default function PortfolioSection() {
     const t = useTranslations("Home.PortfolioSection");
 
     return (
-        <section className="section-height grid bg-primary-300" id="projects">
-            <div className="container py-12 lg:py-20">
-                <h2 className="text-3xl font-bold text-white md:text-6xl">
-                    {t("title")}
-                </h2>
+        <section className="relative section-height grid bg-primary-700 bg-noise" id="projects">
+        <SparklesCore
+            id="projects-sparkles"
+            className="absolute inset-0 z-0 pointer-events-none"
+        />
+        <div className="relative container py-12 lg:py-20 z-10">
 
+                <ScrollTriggerTextEffect
+                    words={t("title")}
+                    className="text-3xl font-bold text-white md:text-6xl"
+                />
                 <div className="my-10 flex flex-wrap justify-center gap-8">
                     {categoryButtons.map(categoryButton => (
                         <button

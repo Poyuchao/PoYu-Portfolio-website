@@ -19,7 +19,8 @@ export default {
                     300: "#10162f",
                     400: "#fff0e5",
                     500: "#2F4F4F", // DarkSlateGray
-                    600: "#000000"
+                    600: "#000000",
+                    700: "#010117"
                 }
             },
             boxShadow: {
@@ -30,6 +31,7 @@ export default {
             },
             animation: {
                 pulse: 'pulse 2s infinite',
+                
             },
             keyframes: {
                 pulse: {

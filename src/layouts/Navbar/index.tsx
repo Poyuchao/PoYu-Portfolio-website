@@ -7,6 +7,8 @@ import { cn } from "@src/utils";
 import { NextImage, NextLink } from "@src/components/common";
 import SiteLogo from "@public/images/common/site-logo.svg";
 import { Label, Switch } from "@src/components/ui";
+import { SparklesCore } from "../../components/ui/sparkles";
+
 const navigationLinks = ["about", "projects", "contact"] as const;
 
 export default function Navbar() {
@@ -27,8 +29,12 @@ export default function Navbar() {
     }, []);
 
     return (
-        <nav className="h-header sticky top-0 z-50 flex items-center border-b-2 border-primary-100 bg-primary-300">
-            <div className="container flex items-center justify-between">
+        <nav className="h-header sticky top-0 z-50 flex items-center border-b-2 border-primary-100 bg-primary-700 bg-noise">
+            <SparklesCore
+                id="navbar-sparkles"
+                className="absolute inset-0 z-0 pointer-events-none"
+            />
+            <div className="container flex items-center justify-between z-10">
                 <NextLink
                     className="rounded-full bg-primary-100 p-1"
                     href="#"

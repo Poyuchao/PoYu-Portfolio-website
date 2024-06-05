@@ -47,7 +47,7 @@ export default function ContactForm( {handleSubmit,submitForm,isSubmitted,isErro
         >
             
             <div>
-                <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
+                <label className="block text-primary-400 text-sm font-bold mb-2" htmlFor="name">
                     Name
                 </label>
                 <input
@@ -62,7 +62,7 @@ export default function ContactForm( {handleSubmit,submitForm,isSubmitted,isErro
                 />
             </div>
             <div>
-                <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
+                <label className="block text-primary-400 text-sm font-bold mb-2" htmlFor="email">
                     Email
                 </label>
                 <input
@@ -77,7 +77,7 @@ export default function ContactForm( {handleSubmit,submitForm,isSubmitted,isErro
                 />
             </div>
             <div>
-                <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="message">
+                <label className="block text-primary-400 text-sm font-bold mb-2" htmlFor="message">
                     Message
                 </label>
                 <textarea

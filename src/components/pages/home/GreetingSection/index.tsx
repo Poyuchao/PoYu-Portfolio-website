@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { NextImage, NextLink } from "@src/components/common";
 import GreetingImage from "@public/images/pages/home/greeting.svg";
 import Typical from 'react-typical';
+import {SparklesCore} from "../../../ui/sparkles";
 
 export default function GreetingSection() {
     const t = useTranslations("Home.GreetingSection");
@@ -14,24 +15,35 @@ export default function GreetingSection() {
     ];
 
     return (
-        <section className="section-height flex items-center bg-primary-400 bg-noise">
-            <div className="container grid place-items-center gap-12 py-12 lg:grid-cols-2 lg:gap-20 lg:py-20">
+        
+        <section className="section-height flex items-center bg-primary-700 bg-noise">
+           <SparklesCore
+            id="greeting-sparkles"
+
+            className="absolute inset-0 z-0 pointer-events-none"
+        />
+            <div className="container grid place-items-center gap-12 py-12 lg:grid-cols-2 lg:gap-20 lg:py-20 z-10">
                 <div className="grid cursor-default gap-4">
-                    <span className="text-primary-200">{t("greeting")}</span>
-                    <h1 className="text-4xl font-bold md:text-6xl">
+                    <span className="text-primary-400">{t("greeting")}</span>
+                    <h1 className="text-4xl font-bold md:text-6xl text-primary-400">
                         {t("name")}
                     </h1>
-                    <p className="text-xl italic md:text-2xl">
+                    <p className="text-xl italic md:text-2xl text-primary-400">
                         <Typical
                             steps={[titles[0], 3000, titles[1], 3000, titles[2], 3000]}
                             loop={Infinity}
                             wrapper="span"
                         />
                     </p>
-                    <p className="font-semibold">{t("paragraph-one")}</p>
-                    <p className="font-semibold">{t("paragraph-two")}</p>
+                    <p className="font-semibold text-primary-400">{t("paragraph-one")}</p>
+                    <p className="font-semibold text-primary-400">{t("paragraph-two")}</p>
                 </div>
-                <NextImage src={GreetingImage} priority alt="" />
+                <img
+                    src="https://media1.giphy.com/media/bGgsc5mWoryfgKBx1u/200w.gif?cid=6c09b9523drvtiv4318dipmnfcd85jtnvtbdc5vu0pvtawlg&ep=v1_gifs_search&rid=200w.gif&ct=g"
+                    alt="Animated GIF"
+                    className="w-full h-full object-cover rounded-lg"
+                />
+                
             </div>
         </section>
     );

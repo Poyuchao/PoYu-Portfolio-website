@@ -3,7 +3,7 @@
 import { useTranslations } from "next-intl";
 import ContactForm from "@src/components/common/ContactForm";
 import { useState,useEffect } from "react";
-
+import { SparklesCore } from "@src/components/ui/sparkles";
 
 export default function ContactSection() {
     const t = useTranslations("Home.ContactSection");
@@ -57,16 +57,20 @@ export default function ContactSection() {
 
     return (
         <section
-            className="last-section-height flex items-center bg-primary-400 bg-noise"
+            className="relative last-section-height flex items-center bg-noise bg-primary-700 overflow-hidden"
             id="contact"
         >
-            <div className="container grid cursor-default place-items-center gap-12 max-lg:py-12 lg:grid-cols-2 lg:gap-20">
-                <div className="grid gap-4 font-semibold">
-                    <h2 className="text-3xl font-bold md:text-6xl">
+            <SparklesCore
+                id="contact-sparkles"
+                className="absolute inset-0 z-0 pointer-events-none"
+            />
+            <div className="relative container grid cursor-default place-items-center gap-12 max-lg:py-12 lg:grid-cols-2 lg:gap-20 z-10">
+                <div className="grid gap-4 font-semibold ">
+                    <h2 className="text-3xl font-bold md:text-6xl text-primary-400">
                         {t("title")}
                     </h2>
-                    <p>{t("paragraph-one")}</p>
-                    <p>{t("paragraph-two")}</p>
+                    <p className="text-primary-400">{t("paragraph-one")}</p>
+                    <p  className="text-primary-400">{t("paragraph-two")}</p>
                     <div className="group inline-block w-fit">
                         <button
                             className="inline-block rounded-md border border-primary-300 bg-white px-4 py-2.5 font-semibold transition duration-200 group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:shadow-[-4px_4px_0px_0px_#3a10e5] animate-pulse"

@@ -5,13 +5,21 @@ import { Label, Switch } from "@src/components/ui";
 import { NextLink } from "@src/components/common";
 import { GithubIcon, LinkedinIcon,InstagramIcon} from "@src/icons";
 import { useTranslations } from "next-intl";
+import { SparklesCore } from "../../components/ui/sparkles";
+
+
 export default function Footer() {
     const router = useRouter();
     const pathname = usePathname();
     const t = useTranslations("Navigation");
-    return (
-        <footer className="h-footer flex cursor-default items-center bg-primary-300 text-white">
-            <div className="container flex items-center justify-between text-sm">
+    return  (
+        <footer className="relative h-footer flex items-center text-white overflow-hidden bg-primary-700 bg-noise">
+            <SparklesCore
+                id="footer-sparkles"
+     
+                className="absolute inset-0 z-0 pointer-events-none"
+            />
+            <div className="relative container flex items-center justify-between text-sm z-10">
                 <div className="flex items-center gap-2.5">
                     <NextLink
                         href="https://github.com/Poyuchao"
