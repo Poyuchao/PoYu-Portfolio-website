@@ -12,8 +12,8 @@
         "AboutSection": {
             "title": "關於我",
             "paragraph-one": "你好！我的名字是 Po Yu Chao，我來自台灣台中。目前我正在尋找在溫哥華的##全端開發人員##職位。我最近的工作於一間 AI 初創公司（Wander Social）遠程工作，地點位於##加拿大不列顛哥倫比亞省溫哥華##。在這段實習期間，我參與了##敏捷開發##會議，實施了人類反饋強化學習（RLHF）以優化機器學習模型，構建了內部工具來驗證 AI 模型的回應，並改進了內部工具的用戶界面以提升用戶體驗和可訪問性。",
-            "paragraph-two": "此外，從 2023 年 9 月到 12 月，我在 Phase Software 擔任兼職合約軟體工程師。在這個角色中，我解決了 React 應用程序中的 UI 相關問題和錯誤，與跨功能團隊合作，並使用##JIRA##管理錯誤票。我使用了##Reactjs##、##Next.js##、##TailwindCSS##和##JavaScript##等技術來增強用戶界面的功能和體驗。",
-            "paragraph-three": "我的學習旅程始於掌握##HTML##、##CSS##和##JavaScript##的基礎。雖然這過程充滿挑戰，但打下堅實的基礎讓我更容易學習像##React##、##Next.js##、##TailwindCSS##和##TypeScript##這樣的高級框架和庫。在我的旅程中，我開發了許多專案，不斷提升自己的技能，成為更好的開發者。我對未來充滿期待，因為在不斷發展的網頁開發領域，總有新的東西可以探索。"
+            "paragraph-two": "此外，從 2023 年 9 月到 12 月，我在 Phase Software 擔任兼職合約軟體工程師。在這個角色中，我解決了 React 應用程序中的 UI 相關問題和錯誤，與跨功能團隊合作，並使用##JIRA##管理錯誤票。我使用了##Reactjs##、##Next.js##、##TailwindCSS##和##JavaScript##,##TypeScript## 等技術來增強用戶界面的功能和體驗。",
+            "paragraph-three": "我的學習旅程始於掌握##HTML##、##CSS##和##JavaScript##的基礎。雖然這過程充滿挑戰，但打下堅實的基礎讓我更容易學習像##React##、##Next.js##、##TailwindCSS##和##Django##這樣的高級框架和庫。在我的旅程中，我開發了許多專案，不斷提升自己的技能，成為更好的開發者。我對未來充滿期待，因為在不斷發展的網頁開發領域，總有新的東西可以探索。"
         },
         "PortfolioSection": {
             "title": "關於我的專案",

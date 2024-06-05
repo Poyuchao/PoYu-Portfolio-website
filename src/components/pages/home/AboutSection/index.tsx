@@ -10,7 +10,7 @@ export default function AboutSection() {
     const t = useTranslations("Home.AboutSection");
     // Declare and assign a value to the 'link' variable
 
-    const keywords = ["敏捷開發","全端開發人員","加拿大不列顛哥倫比亞省溫哥華","agile","jira","Vancouver","full-stack developer","HTML","CSS","JavaScript", "React","Reactjs", "PHP", "MySQL", "RESTful-APIs", "CRUD","Next.js","TypeScript","AwsS3","TailwindCSS"];
+    const keywords = ["敏捷開發","全端開發人員","加拿大不列顛哥倫比亞省溫哥華","agile","jira","Vancouver","full-stack developer","HTML","CSS","JavaScript", "React","Reactjs", "PHP", "MySQL", "RESTful-APIs", "CRUD","Next.js","TypeScript","AwsS3","TailwindCSS","Django"];
 
     function highlightText(text: string): React.ReactNode {
         const regex = new RegExp(`##(${keywords.join('|')})##`, 'gi');

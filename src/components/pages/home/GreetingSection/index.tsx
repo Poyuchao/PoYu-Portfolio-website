@@ -23,6 +23,7 @@ export default function GreetingSection() {
             <div className="relative container grid place-items-center gap-12 py-12 lg:grid-cols-2 lg:gap-20 lg:py-20 z-10">
                 <div className="grid cursor-default gap-4">
                     <span className="text-primary-400">{t("greeting")}</span>
+
                     <ScrollTriggerTextEffect
                         words={t("name")}
                         className="text-4xl font-bold md:text-6xl text-primary-400"
