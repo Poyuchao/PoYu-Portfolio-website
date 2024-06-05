@@ -4,6 +4,8 @@ import { useTranslations } from "next-intl";
 import ContactForm from "@src/components/common/ContactForm";
 import { useState,useEffect } from "react";
 import { SparklesCore } from "@src/components/ui/sparkles";
+import { ScrollTriggerTextEffect } from "../../../ui/ScrollTriggerTextEffect";
+
 
 export default function ContactSection() {
     const t = useTranslations("Home.ContactSection");
@@ -66,9 +68,11 @@ export default function ContactSection() {
             />
             <div className="relative container grid cursor-default place-items-center gap-12 max-lg:py-12 lg:grid-cols-2 lg:gap-20 z-10">
                 <div className="grid gap-4 font-semibold ">
-                    <h2 className="text-3xl font-bold md:text-6xl text-primary-400">
-                        {t("title")}
-                    </h2>
+                  
+                    <ScrollTriggerTextEffect
+                        words={t("title")}
+                        className="text-3xl font-bold md:text-6xl text-primary-400"
+                    />
                     <p className="text-primary-400">{t("paragraph-one")}</p>
                     <p  className="text-primary-400">{t("paragraph-two")}</p>
                     <div className="group inline-block w-fit">
