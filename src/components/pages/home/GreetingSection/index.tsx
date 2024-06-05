@@ -3,7 +3,7 @@
 import { useTranslations } from "next-intl";
 import { NextImage, NextLink } from "@src/components/common";
 import GreetingImage from "@public/images/pages/home/greeting.svg";
-import Typical from 'react-typical';
+import TextRotator from 'react-text-rotator';
 import {SparklesCore} from "../../../ui/sparkles";
 
 export default function GreetingSection() {
@@ -29,10 +29,10 @@ export default function GreetingSection() {
                         {t("name")}
                     </h1>
                     <p className="text-xl italic md:text-2xl text-primary-400">
-                        <Typical
-                            steps={[titles[0], 3000, titles[1], 3000, titles[2], 3000]}
-                            loop={Infinity}
-                            wrapper="span"
+                        <TextRotator
+                            content={titles.map(title => ({ text: title }))}
+                            time={3000}
+                            startDelay={1000}
                         />
                     </p>
                     <p className="font-semibold text-primary-400">{t("paragraph-one")}</p>

@@ -56,6 +56,9 @@ dependencies:
   react-dom:
     specifier: 18.2.0
     version: 18.2.0(react@18.2.0)
+  react-text-rotator:
+    specifier: ^1.2.0
+    version: 1.2.0(react-transition-group@4.4.5)
   react-typed:
     specifier: ^2.0.12
     version: 2.0.12(react@18.2.0)
@@ -1838,6 +1841,13 @@ packages:
       esutils: 2.0.3
     dev: true
 
+  /dom-helpers@5.2.1:
+    resolution: {integrity: sha512-nRCa7CK3VTrM2NmGkIy4cbK7IZlgBE/PYMn55rrXefr5xXDP0LdtfPnblFDoVdcAfslJ7or6iqAUnx0CCGIWQA==}
+    dependencies:
+      '@babel/runtime': 7.24.6
+      csstype: 3.1.3
+    dev: false
+
   /draco3d@1.5.7:
     resolution: {integrity: sha512-m6WCKt/erDXcw+70IJXnG7M3awwQPAsZvJGX5zY7beBqpELw6RDGkYVU0W43AFxye4pDZ5i2Lbyc/NNGqwjUVQ==}
     dev: false
@@ -3541,6 +3551,28 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.21.0
+    dev: false
+
+  /react-text-rotator@1.2.0(react-transition-group@4.4.5):
+    resolution: {integrity: sha512-VIz9VVxsxcOn8WYtMsM1UXiedhb7z/8vt6disjmutGsDsTahrHvjqZFpo+ABlqEaUgb+Daq13dYC2iiu7tvnfA==}
+    peerDependencies:
+      react-transition-group: 4.x
+    dependencies:
+      react-transition-group: 4.4.5(react-dom@18.2.0)(react@18.2.0)
+    dev: false
+
+  /react-transition-group@4.4.5(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-pZcd1MCJoiKiBR2NRxeCRg13uCXbydPnmB4EOeRrY7480qNWO8IIgQG6zlDkm6uRMsURXPuKq0GWtiM59a5Q6g==}
+    peerDependencies:
+      react: '>=16.6.0'
+      react-dom: '>=16.6.0'
+    dependencies:
+      '@babel/runtime': 7.24.6
+      dom-helpers: 5.2.1
+      loose-envify: 1.4.0
+      prop-types: 15.8.1
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
     dev: false
 
   /react-typed@2.0.12(react@18.2.0):
