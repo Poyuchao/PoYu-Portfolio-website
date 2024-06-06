@@ -20,7 +20,16 @@ export const projectItems = {
             websiteLink: "https://actearn-pairwise-evaluator-tool.vercel.app/",
             videoLink: "/video/wander-internal-tool.mp4",
             sourceLink: "https://github.com/ChungNYCU/actearn-pairwise-evaluator-tool.git",
-            techStacks: ["NextJS", "ReactJs", "JavaScript", "TypeScript", "TailwindCSS", "Rest APIs", "Aws S3","Vercel","Postman"]
+            techStacks: ["NextJS", "ReactJs", "JavaScript", "TypeScript", "TailwindCSS", "Rest APIs", "Aws S3","Vercel","Postman","Git"]
+        }, {
+            id: "Portfolio-Website",
+            title: "Portfolio-Website",
+            description:
+                "This portfolio project utilizes ##Next.js##, ##React##, and ##TypeScript## to showcase my web development skills. The website is designed to be responsive and accessible on various devices, including desktops, tablets, and smartphones.",
+            websiteLink: "https://github.com/Poyuchao/PoYu-Portfolio-website",
+            videoLink: "/video/portfolio.mp4",
+            sourceLink: "https://github.com/Poyuchao/PoYu-Portfolio-website",
+            techStacks: ["NextJS", "ReactJs", "TypeScript", "TailwindCSS", "Restful-APIs", "Vercel","Git"]
         }
     ],
     reactjs: [
@@ -32,7 +41,16 @@ export const projectItems = {
             videoLink: "/video/bookMyHomestay.mp4", 
             websiteLink: "",
             sourceLink: "https://github.com/Poyuchao/BookMyHomestay",
-            techStacks: ["ReactJS", "MySQL", "PHP", "JavaScript","Rest APIs","Postman"]
+            techStacks: ["ReactJS", "MySQL", "PHP", "JavaScript","CSS","Bootstrap","Rest APIs","Postman","Git"]
+        },{
+            id: "taiwan-good-stuff",
+            title: "Taiwan-Good-Stuff",
+            description:
+            'Taiwan Good Stuff is a full-stack e-commerce website designed to introduce the finest desserts from Taiwan to the world. In this project, I contributed to the backend server by implementing ##RESTful APIs## for user registration, login, password recovery, and email verification. Additionally, I designed the database schema using ##MongoDB## and facilitated seamless data interaction between the frontend and backend.',
+            videoLink: "/video/taiwanGoodStuff.mp4", 
+            websiteLink: "",
+            sourceLink: "https://github.com/Poyuchao/Po-Kristen-Marketplace",
+            techStacks: ["ReactJS","JavaScript","Tailwind", "Express","Rest APIs","Node.js","MongoDB","Git"]
         }
        
     ],
@@ -61,7 +79,7 @@ export const projectItems = {
             videoLink: "/video/pet-e.mp4", 
             sourceLink:
                 "https://github.com/isaacnetoo/ProjectWebDev3.git",
-            techStacks: ["JavaScript", "CSS", "HTML"]
+            techStacks: ["JavaScript", "CSS", "HTML","JQuery"]
         }
     ]
 } satisfies Record<Category, ProjectItem[]>;

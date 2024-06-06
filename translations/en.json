@@ -27,14 +27,17 @@
                 "nextjs": {
                     "Wander-Internal-Tool": {
                         "description": "This full-stack project utilizes ##Next.js##, ##React##, and ##TypeScript## for the frontend and interacts with ##AwsS3## for data storage. It implements ##RESTful-APIs## to retrieve CSV data from S3, store user responses, and allow users to download their results from S3. The core functionality includes testing user preferences for responses from different AI models (ChatGPT, ChatGPT-4, Gemini) to ensure alignment with human feedback. The goal is to optimize machine learning models for better self-learning efficiency based on user feedback."
+                    },
+                    "Portfolio-Website": {
+                        "description": "This portfolio website showcases my skills and projects, built with ##Next.js##, ##TypeScript##, ##React##, and ##TailwindCSS##. It is designed to be responsive, accessible, and user-friendly, providing a seamless experience across various devices. The site features a clean and modern design, highlighting my work and experience in software development. By utilizing Next.js, it ensures fast loading times and optimal performance, enhancing the overall user experience."
                     }
                 },
                 "reactjs": {
                     "book-my-homestay": {
                         "description": "BookMyHomestay is a full-stack application designed to help Vancouver students find their ideal homestays. The frontend is built with ##React##, while the backend is powered by ##PHP## and ##MySQL##. We implemented ##RESTful-APIs## ##CRUD## operations to facilitate user registration, login, and homeowner registration of their homestays on our website. In a three-person ##agile## development team, I specialized in frontend UI design, creating the registration form, and handling ##RESTful-APIs## requests between the frontend and backend."
                     },
-                    "crypto-marketcap": {
-                        "description": "I have completed this cryptocurrency marketcap website. It has landing page, and a header to show some crypto statistics. It also has coins tab and user can see Top 100 coins with images and some other values. I have used Cryptomarketcap API for this project. Finally, there were some errors about CORS policy and I used netlify-cli tool for that as well."
+                    "taiwan-good-stuff": {
+                        "description": "Taiwan Good Stuff is a full-stack e-commerce website designed to introduce the finest desserts from Taiwan to the world. In this project, I contributed to the backend server by implementing ##RESTful-APIs## for user registration, login, password recovery, and email verification. Additionally, I designed the database schema using ##MongoDB## and facilitated seamless data interaction between the frontend and backend."
                     }
                 },
                 "javascript": {

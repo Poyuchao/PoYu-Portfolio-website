@@ -26,12 +26,18 @@
                 "nextjs": {
                     "Wander-Internal-Tool": {
                         "description": "這個全端專案利用 ##Next.js##、##React## 和 ##TypeScript## 作為前端技術，並與 ##AwsS3## 進行數據存儲交互。專案實現了 ##RESTful-APIs##，用於從 S3 檢索 CSV 數據、存儲用戶回應，以及允許用戶從 S3 下載他們的結果。核心功能包括測試用戶對不同 AI 模型（ChatGPT、ChatGPT-4、Gemini）的回應偏好，以確保這些模型與人類反饋的一致性。目標是根據用戶反饋優化機器學習模型，以提高其自我學習效率。"
+                    },
+                    "Portfolio-Website":{
+                        "description":"這個作品集網站展示了我的技能和項目，使用了##Next.js##、##React##、##TypeScript##和##TailwindCSS##構建。該網站設計為響應式、易於訪問且使用者友好，能夠在各種設備上提供無縫的體驗。網站具有乾淨且現代的設計，突顯了我在軟體開發方面的工作和經驗。通過利用Next.js，網站確保了快速的加載時間和最佳的性能，提升了整體用戶體驗。"
                     }
                    
                 },
                 "reactjs": {
                     "book-my-homestay": {
                         "description": "BookMyHomestay 是一個全端應用程式，旨在幫助溫哥華的學生找到理想的寄宿家庭。前端使用 ##React## 架構，後端由 ##PHP## 和 ##MySQL## 支持。我們實現了 ##RESTful-APIs## 的 ##CRUD## 操作，以便用戶註冊、登錄以及房主在我們的網站上註冊其寄宿家庭。在一個三人組成的 ##敏捷開發## 團隊中，我專注於前端 UI 設計，創建註冊表單，並處理前端和後端之間的 ##RESTful-APIs## 請求"
+                    },
+                    "taiwan-good-stuff": {
+                        "description": "Taiwan Good Stuff 是一個全端電子商務網站，旨在將台灣最好的甜點介紹給全世界。在這個項目中，我負責實現用於用戶註冊系統、登錄、忘記密碼、驗證電子郵件等的##RESTful-APIs##。此外，我使用##MongoDB##設計了數據庫架構，並促進前端和後端之間的數據交互。"
                     }
                 },
                 "javascript": {
