@@ -5,6 +5,7 @@ import { NextImage } from "@src/components/common";
 import AboutMeImage from "@public/images/common/me.jpg";
 import {SparklesCore} from "../../../ui/sparkles";
 import { ScrollTriggerTextEffect } from "../../../ui/ScrollTriggerTextEffect";
+import { CardContainer, CardBody, CardItem }  from "../../../ui/3d-card";
 
 export default function AboutSection() {
     const t = useTranslations("Home.AboutSection");
@@ -32,19 +33,28 @@ export default function AboutSection() {
     return (
         
         <section className="relative section-height flex items-center bg-primary-700 bg-noise overflow-hidden" id="about">
+         
         <SparklesCore id="about-sparkles" className="absolute inset-0 z-0 pointer-events-none" />
+        
         <div className="relative container grid cursor-default place-items-center gap-12 py-12 lg:grid-cols-2 lg:gap-20 lg:py-20 z-10 ">
-            <NextImage src={AboutMeImage} alt="" />
+        
+            <CardContainer className="w-full h-full ">
+                <NextImage className="rounded-2xl" src={AboutMeImage} alt="" />
+            </CardContainer>
+
+       
             <div className="grid gap-4 font-semibold text-white">
                 <ScrollTriggerTextEffect
                     words={t("title")}
                     className="text-3xl font-bold text-white md:text-6xl"
                 />
-                <p>{highlightText(t("paragraph-one"))}</p>
-                <p>{highlightText(t("paragraph-two"))}</p>
-                <p>{highlightText(t("paragraph-three"))}</p>
+                <p className="text-xl hightlight">{highlightText(t("paragraph-one"))}</p>
+                <p className="text-xl">{highlightText(t("paragraph-two"))}</p>
+                <p className="text-xl">{highlightText(t("paragraph-three"))}</p>
             </div>
+      
         </div>
+      
     </section>
     );
 }

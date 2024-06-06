@@ -47,7 +47,7 @@ export default function PortfolioSection() {
                     ))}
                 </div>
 
-                <div className="grid gap-8 lg:grid-cols-2">
+                <div className="grid gap-8 lg:grid-cols-2  ">
                     {projectItems[category].map(projectItem => (
                         <ProjectItem
                             key={projectItem.sourceLink}

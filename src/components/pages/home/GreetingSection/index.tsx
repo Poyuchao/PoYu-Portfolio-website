@@ -22,7 +22,7 @@ export default function GreetingSection() {
             />
             <div className="relative container grid place-items-center gap-12 py-12 lg:grid-cols-2 lg:gap-20 lg:py-20 z-10">
                 <div className="grid cursor-default gap-4">
-                    <span className="text-primary-400">{t("greeting")}</span>
+                    <span className="text-primary-400 text-base">{t("greeting")}</span>
 
                     <ScrollTriggerTextEffect
                         words={t("name")}
@@ -35,13 +35,13 @@ export default function GreetingSection() {
                             startDelay={1000}
                         />
                     </div>
-                    <p className="font-semibold text-primary-400">{t("paragraph-one")}</p>
-                    <p className="font-semibold text-primary-400">{t("paragraph-two")}</p>
+                    <p className="font-semibold text-primary-400 text-lg">{t("paragraph-one")}</p>
+                    <p className="font-semibold text-primary-400 text-lg">{t("paragraph-two")}</p>
                 </div>
                 <img
                     src="https://media1.giphy.com/media/bGgsc5mWoryfgKBx1u/200w.gif?cid=6c09b9523drvtiv4318dipmnfcd85jtnvtbdc5vu0pvtawlg&ep=v1_gifs_search&rid=200w.gif&ct=g"
                     alt="Animated GIF"
-                    className="w-full h-full object-cover rounded-lg"
+                    className="w-full h-full object-cover rounded-2xl"
                 />
             </div>
         </section>
