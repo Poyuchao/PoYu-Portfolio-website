@@ -1,12 +1,14 @@
 "use client";
-
+import { useRouter, usePathname } from "next/navigation";
 import { useTranslations } from "next-intl";
 import TextRotator from 'react-text-rotator';
 import {SparklesCore} from "../../../ui/sparkles";
 import { ScrollTriggerTextEffect } from "../../../ui/ScrollTriggerTextEffect";
-
+import { NextLink } from "@src/components/common";
 
 export default function GreetingSection() {
+    const router = useRouter();
+    const pathname = usePathname();
     const t = useTranslations("Home.GreetingSection");
     const titles = [
         { text: t("title"), className: "text-primary-400" },
@@ -37,9 +39,23 @@ export default function GreetingSection() {
                     </div>
                     <p className="font-semibold text-primary-400 text-lg">{t("paragraph-one")}</p>
                     <p className="font-semibold text-primary-400 text-lg">{t("paragraph-two")}</p>
+                    <div className="group inline-block">
+                    <NextLink
+                        className="inline-block rounded-md border border-primary-300 bg-white px-4 py-1.5 font-medium transition duration-200 group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:shadow-[-4px_4px_0px_0px_#ffd300] text-black animate-pulse"
+                        href={
+                            pathname === "/"
+                                ? "/static/Po-Resume-2024-0715.pdf"
+                                : "/static/Po-Resume-2024-Mandarin.pdf"
+                        }
+                        target="_blank"
+                        prefetch={false}
+                    >
+                        {t("resume")}
+                    </NextLink>
+                </div>
                 </div>
                 <img
-                    src="https://media1.giphy.com/media/bGgsc5mWoryfgKBx1u/200w.gif?cid=6c09b9523drvtiv4318dipmnfcd85jtnvtbdc5vu0pvtawlg&ep=v1_gifs_search&rid=200w.gif&ct=g"
+                    src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHI1N3YxMTAwbWU3NXJiZDR2NHdkcjl3cm5vMWNqejVycmc0ZW1meiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LYBHgc2yiO07G3dkkQ/giphy.gif"
                     alt="Animated GIF"
                     className="w-full h-full object-cover rounded-2xl"
                 />
