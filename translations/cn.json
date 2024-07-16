@@ -25,6 +25,9 @@
             },
             "projects": {
                 "nextjs": {
+                    "Tech-Turtor":{
+                        "description":"TechTutor 是一個全端 web 應用程序，旨在透過提供編碼挑戰、行為問題和概念問題，幫助用戶為技術面試做好準備，並透過大型語言模型（##LLM##）提供即時回饋。問題是基於用戶導入的簡歷和工作鏈接，由 ##GPT API## 產生的"
+                    },
                     "Wander-Internal-Tool": {
                         "description": "這個全端專案利用 ##Next.js##、##React## 和 ##TypeScript## 作為前端技術，並與 ##AwsS3## 進行數據存儲交互。專案實現了 ##RESTful-APIs##，用於從 S3 檢索 CSV 數據、存儲用戶回應，以及允許用戶從 S3 下載他們的結果。核心功能包括測試用戶對不同 AI 模型（ChatGPT、ChatGPT-4、Gemini）的回應偏好，以確保這些模型與人類反饋的一致性。目標是根據用戶反饋優化機器學習模型，以提高其自我學習效率。"
                     },

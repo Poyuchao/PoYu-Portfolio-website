@@ -6,7 +6,7 @@ import Modal from "@src/components/common/Modal";
 import type { ProjectItem as ProjectItemProps } from "./projectItems";
 import VideoIcon from "@src/icons/VideoIcon";
 
-const keywords = ["敏捷開發","HTML","CSS","JavaScript", "React", "PHP", "MySQL", "RESTful-APIs", "CRUD","Next.js","TypeScript","AwsS3","TailwindCSS","agile","MongoDB","Node.js","Express","Vercel","Postman"];
+const keywords = ["敏捷開發","HTML","CSS","JavaScript", "React", "PHP", "MySQL", "RESTful-APIs", "CRUD","Next.js","TypeScript","AwsS3","TailwindCSS","agile","MongoDB","Node.js","Express","Vercel","Postman","GPT API","LLM"];
 
 function highlightText(text: string): React.ReactNode {
    
