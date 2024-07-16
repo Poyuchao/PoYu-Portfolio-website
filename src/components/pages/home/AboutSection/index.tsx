@@ -14,7 +14,9 @@ export default function AboutSection() {
     const keywords = ["敏捷開發","全端開發人員","加拿大不列顛哥倫比亞省溫哥華","agile","jira","Vancouver","full-stack developer","HTML","CSS","JavaScript", "React","Reactjs", "PHP", "MySQL", "RESTful-APIs", "CRUD","Next.js","TypeScript","AwsS3","TailwindCSS","Django"];
 
     function highlightText(text: string): React.ReactNode {
-        const regex = new RegExp(`##(${keywords.join('|')})##`, 'gi');
+        // regex is a regular expression that is dynamically generated to match any of the keywords in the keywords array.
+        // The join('|') method combines the keywords into a single string, separated by the pipe character |, which is the OR operator in regular expressions.
+        const regex = new RegExp(`##(${keywords.join('|')})##`, 'gi'); 
         const parts = text.split(regex);
 
         return parts.map((part, index) => {

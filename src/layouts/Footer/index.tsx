@@ -48,9 +48,9 @@ export default function Footer() {
                     <NextLink
                         className="inline-block rounded-md border border-primary-300 bg-white px-4 py-1.5 font-medium transition duration-200 group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:shadow-[-4px_4px_0px_0px_#ffd300] text-black animate-pulse"
                         href={
-                            pathname === "/tr"
-                                ? "/static/Po-Resume-2024-latest-version.pdf"
-                                : "/static/Po-Resume-2024-latest-version.pdf"
+                            pathname === "/"
+                                ? "/static/Po-Resume-2024-0715.pdf"
+                                : "/static/Po-Resume-2024-Mandarin.pdf"
                         }
                         target="_blank"
                         prefetch={false}
