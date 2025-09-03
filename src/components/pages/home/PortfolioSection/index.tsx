@@ -57,7 +57,6 @@ export default function PortfolioSection() {
                         <ProjectItem
                             key={projectItem.sourceLink}
                             title={projectItem.title}
-                            subtitle={projectItem.subtitle}
                             websiteLink={projectItem.websiteLink}
                             videoLink={projectItem.videoLink}
                             sourceLink={projectItem.sourceLink}
