@@ -24,11 +24,16 @@ export default function PortfolioSection() {
             className="absolute inset-0 z-0 pointer-events-none"
         />
         <div className="relative container py-12 lg:py-20 z-10">
-
+            <div className="flex gap-2 items-center">
                 <ScrollTriggerTextEffect
                     words={t("title")}
                     className="text-3xl font-bold text-white md:text-6xl"
                 />
+                 <ScrollTriggerTextEffect
+                    words={t("subtitle")}
+                    className="text-xl font-normal text-white md:text-3xl"
+                />
+         </div>
                 <div className="my-10 flex flex-wrap justify-center gap-8">
                     {categoryButtons.map(categoryButton => (
                         <button
@@ -52,6 +57,7 @@ export default function PortfolioSection() {
                         <ProjectItem
                             key={projectItem.sourceLink}
                             title={projectItem.title}
+                            subtitle={projectItem.subtitle}
                             websiteLink={projectItem.websiteLink}
                             videoLink={projectItem.videoLink}
                             sourceLink={projectItem.sourceLink}

@@ -44,8 +44,8 @@ export default function GreetingSection() {
                         className="inline-block rounded-md border border-primary-300 bg-white px-4 py-1.5 font-medium transition duration-200 group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:shadow-[-4px_4px_0px_0px_#ffd300] text-black animate-pulse"
                         href={
                             pathname === "/"
-                                ? "/static/Po-Resume-2024-0912.pdf"
-                                : "/static/Po-Resume-2024-Mandarin-0912.pdf"
+                                ? "/static/Po-Resume-2025-0804.pdf"
+                                : "/static/Po-Resume-2025-Mandarin-0804.pdf"
                         }
                         target="_blank"
                         prefetch={false}

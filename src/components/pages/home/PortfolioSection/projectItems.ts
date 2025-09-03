@@ -13,6 +13,16 @@ export type ProjectItem = {
 export const projectItems = {
     nextjs: [
         {
+            id: "artbridge",
+            title: "artbridge",
+            description:
+                "ArtBridge (繪夢工坊) is an artist commission platform that connects illustrators with clients. The platform supports multi-step registration, real-time chat, system notifications, integrated payment processing, commission order management, and user account settings. It allows seamless role switching between clients and artists, and provides full tracking of commission and artwork progress.",
+            websiteLink: "https://dimensioncs.com/",
+            videoLink: "/video/artbridge-demo-display.mp4",
+            sourceLink: "",
+            techStacks: ["NextJS", "ReactJs", "Firebase", "GCP", "JavaScript", "CSS", "HTML","Docker","Git","Redux","Redux Toolkit"]
+        },
+        {
             id: "Tech-Turtor",
             title: "Tech-Turtor",
             description:
@@ -39,7 +49,7 @@ export const projectItems = {
             websiteLink: "https://github.com/Poyuchao/PoYu-Portfolio-website",
             videoLink: "/video/portfolio.mp4",
             sourceLink: "https://github.com/Poyuchao/PoYu-Portfolio-website",
-            techStacks: ["NextJS", "ReactJs", "TypeScript", "TailwindCSS", "Restful-APIs", "Vercel","Git"]
+            techStacks: ["NextJS", "ReactJs", "TypeScript", "TailwindCSS", "Restful-APIs", "Vercel","i18n","Git"]
         }
     ],
     reactjs: [
