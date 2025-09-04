@@ -20,7 +20,16 @@ export const projectItems = {
             websiteLink: "https://dimensioncs.com/",
             videoLink: "/video/artbridge-demo-display.mp4",
             sourceLink: "",
-            techStacks: ["NextJS", "ReactJs", "Firebase", "GCP", "JavaScript", "CSS", "HTML","Docker","Git","Redux","Redux Toolkit"]
+            techStacks: ["NextJS", "ReactJs", "Firebase","Firebase","GCP", "JavaScript", "CSS", "HTML","Docker","Git","Redux","Redux Toolkit","RWD"]
+        },
+        {
+            id: "resumePilot",
+            title: "resumePilot",
+            description:"resumePilot is an AI-powered tool designed to help users enhance their resumes. Inspired by the developer’s own job search experience, it parses uploaded PDF resumes using PyPDF, splits content into semantic chunks via LLM-based chunking, and stores them in a local Chroma vector database.The system supports various built-in queries (e.g., Summary, Education, Suggestions) to retrieve relevant content and uses GPT‑4o to generate precise, personalized feedback.To ensure accuracy, pytest is used for unit testing of both output and metadata structure.",
+            websiteLink: "",
+            videoLink: "/video/resumePilot-demo-display.mp4",
+            sourceLink: "",
+            techStacks: ["Python","Pytest", "Flask", "LLM", "RAG", "Chroma DB", "SQL", "PyPDF","LangChain","NextJS","ReactJs","Tailwind","JSON API ","Git","Postman"]
         },
         {
             id: "Tech-Turtor",

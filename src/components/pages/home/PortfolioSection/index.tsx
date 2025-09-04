@@ -55,7 +55,7 @@ export default function PortfolioSection() {
                 <div className="grid gap-8 lg:grid-cols-2  ">
                     {projectItems[category].map(projectItem => (
                         <ProjectItem
-                            key={projectItem.sourceLink}
+                            key={projectItem.id}
                             title={projectItem.title}
                             websiteLink={projectItem.websiteLink}
                             videoLink={projectItem.videoLink}

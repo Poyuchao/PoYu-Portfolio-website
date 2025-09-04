@@ -11,7 +11,7 @@ export default function AboutSection() {
     const t = useTranslations("Home.AboutSection");
     // Declare and assign a value to the 'link' variable
 
-    const keywords = ["敏捷開發","全端開發人員","加拿大不列顛哥倫比亞省溫哥華","agile","jira","Vancouver","full-stack developer","HTML","CSS","JavaScript", "React","Reactjs", "PHP", "MySQL", "RESTful-APIs", "CRUD","Next.js","TypeScript","AwsS3","TailwindCSS","Django"];
+    const keywords = ["Northern Arizona University","Frontend Developer","Full Stack Developer","artbridge","NewebPay","Next.js Middleware","Wonder AI","Phase Software","jira","Vancouver","full-stack developer","HTML","CSS","Tailwind CSS","Amazon S3","JavaScript", "React","React.js","Firestore", "MySQL", "RESTful-APIs", "CRUD","Next.js","TypeScript","AwsS3","TailwindCSS","Firebase","Firebase listener","Redux Toolkit","Redux","GCP Cloud Run","Docker","Jest","Django","Python"];
 
     function highlightText(text: string): React.ReactNode {
         // regex is a regular expression that is dynamically generated to match any of the keywords in the keywords array.
@@ -41,7 +41,7 @@ export default function AboutSection() {
         <div className="relative container grid cursor-default place-items-center gap-12 py-12 lg:grid-cols-2 lg:gap-20 lg:py-20 z-10 ">
         
             <CardContainer className="w-full h-full ">
-                <NextImage className="rounded-2xl" src={AboutMeImage} alt="" />
+                <NextImage className="rounded-2xl" src={AboutMeImage} alt="me-Img" />
             </CardContainer>
 
        

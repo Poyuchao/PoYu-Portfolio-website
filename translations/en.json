@@ -10,13 +10,14 @@
             "paragraph-two": "I'm always open to new projects and opportunities, and I'd love to hear from you. Let's create something amazing together!",
             "resume": "Download My Resume"
         },
-        "AboutSection": {
+            "AboutSection": {
             "title": "About Me",
-            "paragraph-one": "Hello! My name is Po Yu Chao, and I am from Taichung, Taiwan. I am currently seeking a ##full-stack developer## position in Taiwan. My recent role at a Stealth AI Startup (Wander Social), where I worked remotely from ##Vancouver##, British Columbia, Canada. During this internship, I participated in ##agile## meetings, implemented Reinforcement Learning from Human Feedback (RLHF) to optimize machine learning models, built internal tools to verify AI model responses, and improved the internal tool's UI for better user experience and accessibility.",
-            "paragraph-two": "In addition, I worked as a part-time contract Software Engineer with Phase Software from September to December 2023. In this role, I addressed UI-related issues and bugs in React applications, collaborated with cross-functional teams, and managed bug tickets using ##JIRA##. I utilized technologies such as ##Reactjs##, ##Next.js##, ##TailwindCSS##, ##JavaScript## and ##TypeScript## to enhance user interface functionality and experience.",
-            "paragraph-three": "I began my journey by mastering the basics of ##HTML##, ##CSS##, and ##JavaScript##. While it was challenging, building a solid foundation has made it easier for me to learn advanced frameworks and libraries like ##React##, ##Next.js##, ##TailwindCSS##, and ##Django##. Throughout my journey, I have developed numerous projects, continuously honing my skills to become a better developer. I am excited to see where this path takes me, as there is always something new to explore in the ever-evolving world of web development."
-        }
-        ,
+            "paragraph-one": "Hello everyone, I’m PoYu Chao (趙博宇), and I am currently seeking opportunities as a ##Full Stack Developer## or ##Frontend Developer##. I graduated from ##Northern Arizona University## with a background in Software Engineering, and I bring with me one full-time development experience and two internship experiences.",
+            "paragraph-two": "Since Sep 2024, I’ve been working as a ##Full Stack Developer## on a startup project called ##ArtBridge## – an artist commission platform. Collaborating with a four-person team, I helped build the entire system from scratch. Key features I implemented include multi-step registration, real-time chat with milestone tracking, ##NewebPay## payment integration, and backend API routes. I also developed responsive UI components such as user settings, a message board, and modals for image preview/upload. To handle growth, I optimized ##Firestore## structure, improved ##Firebase listener## logic, and applied centralized caching using ##Redux##. I also used ##Next.js Middleware## for session-based route protection",
+            "paragraph-three": "I previously interned as a Software Engineer Intern at ##Wonder AI##, where I improved UI/UX and developed internal tools to support ##AI## model optimization using technologies like ##React.js##, ##Next.js##, ##Tailwind CSS##, and ##Amazon S3##. Before that, I worked as a Quality Assurance Intern at ##Phase Software## (Taipei Office), where I wrote unit tests using ##Jest##, documented bugs, and later contributed remotely to resolving ##React.js## UI issues through ##Jira## collaboration."
+        },      
+
+       
         "PortfolioSection": {
             "title": "Projects I've Worked On",
             "subtitle":"(click demo to see more)",
@@ -29,6 +30,9 @@
                 "nextjs": {
                     "artbridge":{
                         "description":"ArtBridge (繪夢工坊) is an artist commission platform that connects illustrators with clients. The platform supports multi-step registration, real-time chat, system notifications, integrated payment processing, commission order management, and user account settings. It allows seamless role switching between clients and artists, and provides full tracking of commission and artwork progress."
+                    },
+                    "resumePilot":{
+                        "description":"resumePilot is an AI-powered tool designed to help users enhance their resumes. Inspired by the developer’s own job search experience, it parses uploaded PDF resumes using PyPDF, splits content into semantic chunks via LLM-based chunking, and stores them in a local Chroma vector database.The system supports various built-in queries (e.g., Summary,Education,Suggestions) to retrieve relevant content and uses GPT‑4o to generate precise, personalized feedback.To ensure accuracy, pytest is used for unit testing of both output and metadata structure."
                     },
                     "Tech-Turtor":{
                         "description":"TechTutor is a full-stack web application designed to help users prepare for technical interviews by providing coding challenges, behavioral questions, and conceptual questions with real-time feedback from a large language model (##LLM##). Questions are generated by the ##GPT API## based on user-imported resumes and job links"

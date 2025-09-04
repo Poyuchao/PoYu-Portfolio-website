@@ -6,15 +6,15 @@
             "title": "一個充滿熱情的軟體開發者",
             "locate": "位於台中, 台灣",
             "softwareDeveloper": "尋求全端開發人員||前端開發人員||AI工程師 的工作機會",
-            "paragraph-one": "我是一個充滿熱情的自由軟體開發者。如果我的技能符合您的需求，請隨時與我聯繫。",
-            "paragraph-two": "我一直對新項目和機會持開放態度，非常期待您的來信。讓我們一起創造一些很棒的東西吧！",
+            "paragraph-one": "我是一個充滿熱情的自由軟體開發者。",
+            "paragraph-two": "我一直對新專案和機會保持開放態度，如果覺得我的技能樹符合您的期待，請隨時與我聯繫。",
             "resume": "下載我的履歷"
         },       
         "AboutSection": {
             "title": "關於我",
-            "paragraph-one": "你好！我的名字是 Po Yu Chao，我來自台灣台中。目前我正在尋找在台灣的##全端開發人員##職位。我最近的工作於一間 AI 初創公司（Wander Social）遠程工作，地點位於##加拿大不列顛哥倫比亞省溫哥華##。在這段實習期間，我參與了##敏捷開發##會議，實施了人類反饋強化學習（RLHF）以優化機器學習模型，構建了內部工具來驗證 AI 模型的回應，並改進了內部工具的用戶界面以提升用戶體驗和可訪問性。",
-            "paragraph-two": "此外，從 2023 年 9 月到 12 月，我在 Phase Software 擔任兼職合約軟體工程師。在這個角色中，我解決了 React 應用程序中的 UI 相關問題和錯誤，與跨功能團隊合作，並使用##JIRA##管理錯誤票。我使用了##Reactjs##、##Next.js##、##TailwindCSS##和##JavaScript##,##TypeScript## 等技術來增強用戶界面的功能和體驗。",
-            "paragraph-three": "我的學習旅程始於掌握##HTML##、##CSS##和##JavaScript##的基礎。雖然這過程充滿挑戰，但打下堅實的基礎讓我更容易學習像##React##、##Next.js##、##TailwindCSS##和##Django##這樣的高級框架和庫。在我的旅程中，我開發了許多專案，不斷提升自己的技能，成為更好的開發者。我對未來充滿期待，因為在不斷發展的網頁開發領域，總有新的東西可以探索。"
+            "paragraph-one": "大家好，我是 PoYu Chao（趙博宇），目前在尋找 ##Full Stack Developer## 或 ##Frontend Developer## 的職位。我畢業於##Northern Arizona University## 軟體工程背景，具備一段完整的專案開發正職經驗與兩段實習經驗。",
+            "paragraph-two": "自 2024 年 9 月起，我擔任 ArtBridge（繪夢工坊）藝術委託平台的全端開發者，與四人團隊密切合作，從零開始建構整體系統。專案中我應用 ##Next.js##、##React.js##、##Firebase##、##Redux Toolkit##、##GCP Cloud Run## 與 ##Docker## 等技術，實作多步驟註冊(UI+功能)、具里程碑追蹤的即時聊天(UI+功能)、金流整合（NewebPay）與後端 API 路由。我也協助開發了使用者帳號設定介面(UI+功能)、供使用者互動的留言板系統(UI+功能)，以及多個支援圖片預覽與上傳的 modal 元件(UI+功能)。整體 UI 設計注重響應式、直觀體驗，並優化於行動裝置使用。隨著用戶數成長，我協助優化 Firestore 資料結構與 ##Firebase listener## 的使用邏輯，導入 Redux 集中快取策略，有效降低讀取次數並提升即時效能。同時，我也運用 Next.js Middleware 實現基於 session 的路由存取控制，保護如個人資料編輯、後台與作品管理等頁面。在整體開發過程中，我善用 ChatGPT 與 GitHub Copilot 等 AI 工具，提升開發效率與程式邏輯驗證的準確性。",
+            "paragraph-three": "我曾於 2024 年 4 月至 7 月在加拿大新創公司 Wonder AI 擔任軟體實習生，負責 UI/UX 改善與內部工具開發，主要技術包含 ##React.js##、##Next.js##、##Tailwind CSS## 與 ##Amazon S3##，協助優化 AI 模型回饋流程。 在更早之前，我於 2023 年 6 月至 12 月在德商公司 Phase Software（駐台北辦公室）擔任 QA 實習生，撰寫 ##Jest## 測試、記錄 bug，實習結束後持續以遠端方式協助修復 ##React## 專案中的 UI 問題，並透過 ##Jira## 協作開發任務。"
         },
         "PortfolioSection": {
             "title": "關於我的專案",
@@ -28,6 +28,9 @@
                 "nextjs": {
                     "artbridge":{
                         "description":"ArtBridge (繪夢工坊) 是一個媒合繪師與委託方的插畫委託平台，平台涵蓋多步驟註冊、即時聊天、系統通知、付款整合、委託管理訂單與使用者設定等核心功能，支援多角色切換(委託方&繪師) 並具備完整的訂單與創作流程追蹤。在這個專案我負責前端介面根據figma實現pixel perfect 及上述的功能開發"
+                    },
+                    "resumePilot":{
+                        "description":"resumePilot 是一款專為履歷優化所設計的 AI 輔助分析工具，開發動機源自求職者本身在求職過程中希望提升履歷品質的實際需求。使用者上傳 PDF 履歷後，系統會透過 PyPDF 將檔案解析為純文字，接著使用大型語言模型（LLM）內建的 chunk splitter 將內容切割成語意片段，並儲存至本地端的 Chroma 向量資料庫。系統支援多種內建查詢語句（如：「履歷摘要」、「學歷背景」、「建議職位」、「優化建議」及「使用者自訂問題」），能從資料庫中搜尋最相關的語意片段（chunk），再輸入 GPT‑4o 生成精準、針對性的建議回答，協助使用者快速優化履歷。為確保生成結果的結構與語意準確度，專案亦導入 pytest 單元測試，驗證回傳內容與 metadata 的完整性與正確性。"
                     },
                     "Tech-Turtor":{
                         "description":"TechTutor 是一個全端 web 應用程序，旨在透過提供編碼挑戰、行為問題和概念問題，幫助用戶為技術面試做好準備，並透過大型語言模型（##LLM##）提供即時回饋。問題是基於用戶導入的簡歷和工作鏈接，由 ##GPT API## 產生的"
